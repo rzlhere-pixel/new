@@ -1,0 +1,522 @@
+[
+  {
+    "tag": "360x780-light",
+    "hScroll": 0,
+    "titleChecks": [
+      {
+        "id": "fried-rice-noodles",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "fried-rice-noodles"
+      },
+      {
+        "id": "mutton",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "mutton"
+      },
+      {
+        "id": "combos",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "combos"
+      },
+      {
+        "id": "drinks-juices",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "drinks-juices"
+      },
+      {
+        "id": "breakfast",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "breakfast"
+      }
+    ],
+    "bottomOk": {
+      "footerLastBottom": 632,
+      "barTop": 707,
+      "ok": true
+    },
+    "searchCount": 22,
+    "listText": "Your list\n\nA note to show when you order. Nothing is sent to the restaurant.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nShow to staff\nClear list",
+    "staffText": "Order\n1\nMasala Dosa\n× 2\n17\nEgg Curry\nDouble\n× 1\n64\nPothi Biriyani\nMutton\n× 1\nDone",
+    "errors": [
+      "Failed to load resource: the server responded with a status of 404 ()"
+    ]
+  },
+  {
+    "tag": "360x780-dark",
+    "hScroll": 0,
+    "titleChecks": [
+      {
+        "id": "fried-rice-noodles",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "fried-rice-noodles"
+      },
+      {
+        "id": "mutton",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "mutton"
+      },
+      {
+        "id": "combos",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "combos"
+      },
+      {
+        "id": "drinks-juices",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "drinks-juices"
+      },
+      {
+        "id": "breakfast",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "breakfast"
+      }
+    ],
+    "bottomOk": {
+      "footerLastBottom": 632,
+      "barTop": 707,
+      "ok": true
+    },
+    "searchCount": 22,
+    "listText": "Your list\n\nA note to show when you order. Nothing is sent to the restaurant.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nShow to staff\nClear list",
+    "staffText": "Order\n1\nMasala Dosa\n× 2\n17\nEgg Curry\nDouble\n× 1\n64\nPothi Biriyani\nMutton\n× 1\nDone",
+    "errors": [
+      "Failed to load resource: the server responded with a status of 404 ()"
+    ]
+  },
+  {
+    "tag": "390x844-light",
+    "hScroll": 0,
+    "titleChecks": [
+      {
+        "id": "fried-rice-noodles",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "fried-rice-noodles"
+      },
+      {
+        "id": "mutton",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "mutton"
+      },
+      {
+        "id": "combos",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "combos"
+      },
+      {
+        "id": "drinks-juices",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "drinks-juices"
+      },
+      {
+        "id": "breakfast",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "breakfast"
+      }
+    ],
+    "bottomOk": {
+      "footerLastBottom": 696,
+      "barTop": 771,
+      "ok": true
+    },
+    "searchCount": 22,
+    "listText": "Your list\n\nA note to show when you order. Nothing is sent to the restaurant.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nShow to staff\nClear list",
+    "staffText": "Order\n1\nMasala Dosa\n× 2\n17\nEgg Curry\nDouble\n× 1\n64\nPothi Biriyani\nMutton\n× 1\nDone",
+    "errors": [
+      "Failed to load resource: the server responded with a status of 404 ()"
+    ]
+  },
+  {
+    "tag": "390x844-dark",
+    "hScroll": 0,
+    "titleChecks": [
+      {
+        "id": "fried-rice-noodles",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "fried-rice-noodles"
+      },
+      {
+        "id": "mutton",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "mutton"
+      },
+      {
+        "id": "combos",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "combos"
+      },
+      {
+        "id": "drinks-juices",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "drinks-juices"
+      },
+      {
+        "id": "breakfast",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "breakfast"
+      }
+    ],
+    "bottomOk": {
+      "footerLastBottom": 696,
+      "barTop": 771,
+      "ok": true
+    },
+    "searchCount": 22,
+    "listText": "Your list\n\nA note to show when you order. Nothing is sent to the restaurant.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nShow to staff\nClear list",
+    "staffText": "Order\n1\nMasala Dosa\n× 2\n17\nEgg Curry\nDouble\n× 1\n64\nPothi Biriyani\nMutton\n× 1\nDone",
+    "errors": [
+      "Failed to load resource: the server responded with a status of 404 ()"
+    ]
+  },
+  {
+    "tag": "430x932-light",
+    "hScroll": 0,
+    "titleChecks": [
+      {
+        "id": "fried-rice-noodles",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "fried-rice-noodles"
+      },
+      {
+        "id": "mutton",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "mutton"
+      },
+      {
+        "id": "combos",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "combos"
+      },
+      {
+        "id": "drinks-juices",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "drinks-juices"
+      },
+      {
+        "id": "breakfast",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "breakfast"
+      }
+    ],
+    "bottomOk": {
+      "footerLastBottom": 784,
+      "barTop": 859,
+      "ok": true
+    },
+    "searchCount": 22,
+    "listText": "Your list\n\nA note to show when you order. Nothing is sent to the restaurant.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nShow to staff\nClear list",
+    "staffText": "Order\n1\nMasala Dosa\n× 2\n17\nEgg Curry\nDouble\n× 1\n64\nPothi Biriyani\nMutton\n× 1\nDone",
+    "errors": [
+      "Failed to load resource: the server responded with a status of 404 ()"
+    ]
+  },
+  {
+    "tag": "430x932-dark",
+    "hScroll": 0,
+    "titleChecks": [
+      {
+        "id": "fried-rice-noodles",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "fried-rice-noodles"
+      },
+      {
+        "id": "mutton",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "mutton"
+      },
+      {
+        "id": "combos",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "combos"
+      },
+      {
+        "id": "drinks-juices",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "drinks-juices"
+      },
+      {
+        "id": "breakfast",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "breakfast"
+      }
+    ],
+    "bottomOk": {
+      "footerLastBottom": 784,
+      "barTop": 859,
+      "ok": true
+    },
+    "searchCount": 22,
+    "listText": "Your list\n\nA note to show when you order. Nothing is sent to the restaurant.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nShow to staff\nClear list",
+    "staffText": "Order\n1\nMasala Dosa\n× 2\n17\nEgg Curry\nDouble\n× 1\n64\nPothi Biriyani\nMutton\n× 1\nDone",
+    "errors": [
+      "Failed to load resource: the server responded with a status of 404 ()"
+    ]
+  },
+  {
+    "tag": "768x1024-light",
+    "hScroll": 0,
+    "titleChecks": [
+      {
+        "id": "fried-rice-noodles",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "fried-rice-noodles"
+      },
+      {
+        "id": "mutton",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "mutton"
+      },
+      {
+        "id": "combos",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "combos"
+      },
+      {
+        "id": "drinks-juices",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "drinks-juices"
+      },
+      {
+        "id": "breakfast",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "breakfast"
+      }
+    ],
+    "bottomOk": {
+      "footerLastBottom": 876,
+      "barTop": 951,
+      "ok": true
+    },
+    "searchCount": 22,
+    "listText": "Your list\n\nA note to show when you order. Nothing is sent to the restaurant.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nShow to staff\nClear list",
+    "staffText": "Order\n1\nMasala Dosa\n× 2\n17\nEgg Curry\nDouble\n× 1\n64\nPothi Biriyani\nMutton\n× 1\nDone",
+    "errors": [
+      "Failed to load resource: the server responded with a status of 404 ()"
+    ]
+  },
+  {
+    "tag": "768x1024-dark",
+    "hScroll": 0,
+    "titleChecks": [
+      {
+        "id": "fried-rice-noodles",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "fried-rice-noodles"
+      },
+      {
+        "id": "mutton",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "mutton"
+      },
+      {
+        "id": "combos",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "combos"
+      },
+      {
+        "id": "drinks-juices",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "drinks-juices"
+      },
+      {
+        "id": "breakfast",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "breakfast"
+      }
+    ],
+    "bottomOk": {
+      "footerLastBottom": 876,
+      "barTop": 951,
+      "ok": true
+    },
+    "searchCount": 22,
+    "listText": "Your list\n\nA note to show when you order. Nothing is sent to the restaurant.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nShow to staff\nClear list",
+    "staffText": "Order\n1\nMasala Dosa\n× 2\n17\nEgg Curry\nDouble\n× 1\n64\nPothi Biriyani\nMutton\n× 1\nDone",
+    "errors": [
+      "Failed to load resource: the server responded with a status of 404 ()"
+    ]
+  },
+  {
+    "tag": "1280x800-light",
+    "hScroll": 0,
+    "titleChecks": [
+      {
+        "id": "fried-rice-noodles",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "fried-rice-noodles"
+      },
+      {
+        "id": "mutton",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "mutton"
+      },
+      {
+        "id": "combos",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "combos"
+      },
+      {
+        "id": "drinks-juices",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "drinks-juices"
+      },
+      {
+        "id": "breakfast",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "breakfast"
+      }
+    ],
+    "bottomOk": {
+      "footerLastBottom": 652,
+      "barTop": 727,
+      "ok": true
+    },
+    "searchCount": 22,
+    "listText": "Your list\n\nA note to show when you order. Nothing is sent to the restaurant.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nShow to staff\nClear list",
+    "staffText": "Order\n1\nMasala Dosa\n× 2\n17\nEgg Curry\nDouble\n× 1\n64\nPothi Biriyani\nMutton\n× 1\nDone",
+    "errors": [
+      "Failed to load resource: the server responded with a status of 404 ()"
+    ]
+  },
+  {
+    "tag": "1280x800-dark",
+    "hScroll": 0,
+    "titleChecks": [
+      {
+        "id": "fried-rice-noodles",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "fried-rice-noodles"
+      },
+      {
+        "id": "mutton",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "mutton"
+      },
+      {
+        "id": "combos",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "combos"
+      },
+      {
+        "id": "drinks-juices",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "drinks-juices"
+      },
+      {
+        "id": "breakfast",
+        "ok": true,
+        "barBottom": 113,
+        "titleTop": 145,
+        "active": "breakfast"
+      }
+    ],
+    "bottomOk": {
+      "footerLastBottom": 652,
+      "barTop": 727,
+      "ok": true
+    },
+    "searchCount": 22,
+    "listText": "Your list\n\nA note to show when you order. Nothing is sent to the restaurant.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nShow to staff\nClear list",
+    "staffText": "Order\n1\nMasala Dosa\n× 2\n17\nEgg Curry\nDouble\n× 1\n64\nPothi Biriyani\nMutton\n× 1\nDone",
+    "errors": [
+      "Failed to load resource: the server responded with a status of 404 ()"
+    ]
+  }
+]
