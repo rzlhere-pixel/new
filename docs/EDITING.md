@@ -64,15 +64,22 @@ showDietMarkers: false,
 
 to `true`. The same file has `showItemNumbers` (show the serial number on every row) and `enableMyList` (the "Your list" feature).
 
-## Add a WhatsApp number
+## WhatsApp orders and the delivery buildings
 
-In `src/data/menu.json`, find `"whatsapp": null` near the top and replace `null` with the number in international format, digits only, in quotes:
+Delivery orders are sent as a WhatsApp message to the number in `"whatsapp"` near the top of `src/data/menu.json` (now `"971506539192"`, that is 050 653 9192). Customers add dishes, open **Your list**, tap **Order for delivery**, pick their building, add the flat number, and WhatsApp opens with the order written out. Nothing is sent until they press send in WhatsApp; there is no online payment.
+
+- **Change the number:** write it in international format, digits only, in quotes: `"whatsapp": "9715XXXXXXXX",`.
+- **Turn delivery ordering off:** set it to `"whatsapp": null,`. The Order for delivery button and the WhatsApp row disappear.
+
+The building list is **`src/data/delivery-buildings.json`** (76 buildings from `docs/source/Al_Nahda_Highlighted_Area_Building_Register.xlsx`, the area drawn in `docs/source/delivery-area-map.jpg`). Each building looks like this:
 
 ```json
-"whatsapp": "9715XXXXXXXX",
+{ "id": "al-kawther-tower", "name": "Al Kawther Tower", "street": "Bukhara Street" },
 ```
 
-A "Send on WhatsApp" button then appears in "Your list". Set it back to `null` to hide it.
+- **Add a building:** copy a line, change `name` and `street`, and give it a unique `id` (lowercase words joined by hyphens). Keep the list in A to Z order by name.
+- **Remove a building:** delete its line (and the comma before it if it was the last one).
+- Customers whose building is missing can tap **My building isn't listed** and type it.
 
 ## Change Happy Hour
 

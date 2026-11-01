@@ -1,0 +1,386 @@
+{
+  "source": "docs/source/Al_Nahda_Highlighted_Area_Building_Register.xlsx (sheet \"Building candidates\", 76 rows)",
+  "area": "Al Nahda, Sharjah: the area drawn around the restaurant in docs/source/delivery-area-map.jpg",
+  "buildings": [
+    {
+      "id": "abdul-waheed-bin-shabib-tower",
+      "name": "Abdul Waheed Bin Shabib Tower",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "abdullah-hussain-building",
+      "name": "Abdullah Hussain Building",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "al-ameer-tower",
+      "name": "Al Ameer Tower",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "al-aneeqa-tower",
+      "name": "Al Aneeqa Tower",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "al-baker-tower-1",
+      "name": "Al Baker Tower 1",
+      "street": "Malaka Street"
+    },
+    {
+      "id": "al-baker-tower-2",
+      "name": "Al Baker Tower 2",
+      "street": "Malaka Street"
+    },
+    {
+      "id": "al-buhaira-towers",
+      "name": "Al Buhaira Towers",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "al-daggaya-tower",
+      "name": "Al Daggaya Tower",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "al-fahad-tower",
+      "name": "Al Fahad Tower",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "al-fairouz-building",
+      "name": "Al Fairouz Building",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "al-jawad-tower",
+      "name": "Al Jawad Tower",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "al-kawther-tower",
+      "name": "Al Kawther Tower",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "al-khaleej-building-1",
+      "name": "Al Khaleej Building 1",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "al-khaleej-building-2",
+      "name": "Al Khaleej Building 2",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "al-khayal-tower-1",
+      "name": "Al Khayal Tower 1",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "al-kubra-tower",
+      "name": "Al Kubra Tower",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "al-mansoor-tower",
+      "name": "Al Mansoor Tower",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "al-mubarakiya-tower",
+      "name": "Al Mubarakiya Tower",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "al-muzoon-tower",
+      "name": "Al Muzoon Tower",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "al-nada-tower",
+      "name": "Al Nada Tower",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "al-nahda-park",
+      "name": "Al Nahda Park",
+      "street": "Al Nahda"
+    },
+    {
+      "id": "al-nahda-plaza",
+      "name": "Al Nahda Plaza",
+      "street": "Al Nahda Street"
+    },
+    {
+      "id": "al-nahda-residential-complex-block-a",
+      "name": "Al Nahda Residential Complex Block A",
+      "street": "Al Nahda Street"
+    },
+    {
+      "id": "al-nahda-residential-complex-block-b",
+      "name": "Al Nahda Residential Complex Block B",
+      "street": "Al Nahda Street"
+    },
+    {
+      "id": "al-nahda-sahara-plaza",
+      "name": "Al Nahda Sahara Plaza",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "al-nasr-building-1",
+      "name": "Al Nasr Building 1",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "al-nasr-building-2",
+      "name": "Al Nasr Building 2",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "al-noora-al-deyaar-building",
+      "name": "Al Noora Al Deyaar Building",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "al-owais-building",
+      "name": "Al Owais Building",
+      "street": "Malaka Street"
+    },
+    {
+      "id": "al-rawda-tower",
+      "name": "Al Rawda Tower",
+      "street": "Malaka Street"
+    },
+    {
+      "id": "al-rayyan-complex",
+      "name": "Al Rayyan Complex",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "al-reef-tower-2",
+      "name": "Al Reef Tower 2",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "al-sadeqha-tower",
+      "name": "Al Sadeqha Tower",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "al-safa-tower",
+      "name": "Al Safa Tower",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "al-shaiba-building",
+      "name": "Al Shaiba Building",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "al-shaiba-tower-a",
+      "name": "Al Shaiba Tower A",
+      "street": "Malaka Street"
+    },
+    {
+      "id": "al-shaiba-tower-b",
+      "name": "Al Shaiba Tower B",
+      "street": "Malaka Street"
+    },
+    {
+      "id": "al-shoibi-tower-2",
+      "name": "Al Shoibi Tower 2",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "al-suwaidi-building",
+      "name": "Al Suwaidi Building",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "al-tami-3-building",
+      "name": "Al Tami 3 Building",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "al-zain-tower",
+      "name": "Al Zain Tower",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "al-batool-tower",
+      "name": "Al-Batool Tower",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "ali-omran-building",
+      "name": "Ali Omran Building",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "bawadi-building",
+      "name": "Bawadi Building",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "baynounah-tower",
+      "name": "Baynounah Tower",
+      "street": "Malaka Street"
+    },
+    {
+      "id": "bin-sufiyan-tower",
+      "name": "Bin Sufiyan Tower",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "delta-tower",
+      "name": "Delta Tower",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "diamond-tower-3",
+      "name": "Diamond Tower 3",
+      "street": "Al Nahda Street"
+    },
+    {
+      "id": "dulf-tower",
+      "name": "Dulf Tower",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "faisal-tower-1",
+      "name": "Faisal Tower 1",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "faisal-tower-2",
+      "name": "Faisal Tower 2",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "ganda-tower",
+      "name": "Ganda Tower",
+      "street": "Malaka Street"
+    },
+    {
+      "id": "garden-plaza-tower",
+      "name": "Garden Plaza Tower",
+      "street": "Near Al Nahda Roundabout"
+    },
+    {
+      "id": "golden-sands-tower",
+      "name": "Golden Sands Tower",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "hani-bayram-tower",
+      "name": "Hani Bayram Tower",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "juma-al-majid-building",
+      "name": "Juma Al Majid Building",
+      "street": "Malaka Street"
+    },
+    {
+      "id": "juma-al-majid-towers",
+      "name": "Juma Al Majid Towers",
+      "street": "Al Nahda Street"
+    },
+    {
+      "id": "kanoon-building",
+      "name": "Kanoon Building",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "lulu-tower",
+      "name": "Lulu Tower",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "maf-tower",
+      "name": "Maf Tower",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "malak-tower",
+      "name": "Malak Tower",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "manazil-tower-4",
+      "name": "Manazil Tower 4",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "marco-tower",
+      "name": "Marco Tower",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "new-al-nahda-building",
+      "name": "New Al Nahda Building",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "r-s-building",
+      "name": "R & S Building",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "reem-avenue",
+      "name": "Reem Avenue",
+      "street": "Malaka Street"
+    },
+    {
+      "id": "rizwan-tower",
+      "name": "Rizwan Tower",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "royal-grand-suite-hotel",
+      "name": "Royal Grand Suite Hotel",
+      "street": "Samarqand Street"
+    },
+    {
+      "id": "sahara-centre",
+      "name": "Sahara Centre",
+      "street": "Al Nahda Street"
+    },
+    {
+      "id": "sun-tower",
+      "name": "Sun Tower",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "tami-4",
+      "name": "Tami 4",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "the-andalusia-building",
+      "name": "The Andalusia Building",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "the-frame-tower",
+      "name": "The Frame Tower",
+      "street": "Malaka Street"
+    },
+    {
+      "id": "tiger-building-al-qadesia",
+      "name": "Tiger Building Al Qadesia",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "zubaidi-building-block-a",
+      "name": "Zubaidi Building - Block A",
+      "street": "Bukhara Street"
+    },
+    {
+      "id": "zubaidi-building-block-b",
+      "name": "Zubaidi Building - Block B",
+      "street": "Bukhara Street"
+    }
+  ]
+}

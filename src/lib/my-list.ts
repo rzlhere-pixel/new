@@ -149,12 +149,3 @@ export function optionText(l: ResolvedLine): string | undefined {
   if (!l.option) return undefined;
   return l.option.label ?? (l.option.price !== null ? formatPrice(l.option.price) : undefined);
 }
-
-export function listAsText(lines: ResolvedLine[]): string {
-  return lines
-    .map((l) => {
-      const opt = optionText(l);
-      return `${l.qty} x ${l.no ? `${l.no}. ` : ""}${l.item.name}${opt ? ` (${opt})` : ""}`;
-    })
-    .join("\n");
-}

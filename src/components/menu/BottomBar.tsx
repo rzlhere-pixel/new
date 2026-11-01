@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MapPin, Phone } from "lucide-react";
+import { MapPin, MessageCircle, Phone } from "lucide-react";
 import { menu } from "@/data/menu";
 import { SITE } from "@/config/site";
 import { listCount, useMyList } from "@/lib/my-list";
@@ -67,7 +67,28 @@ export function BottomBar() {
                 </a>
               </li>
             ))}
+            {r.whatsapp && (
+              <li className="border-b border-line last:border-b-0">
+                <a
+                  href={`https://wa.me/${r.whatsapp}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex min-h-14 items-center gap-3 py-2"
+                >
+                  <MessageCircle
+                    aria-hidden
+                    className="size-5 text-brand-red-deep dark:text-neon"
+                  />
+                  <span className="text-[17px] font-medium">Message us on WhatsApp</span>
+                </a>
+              </li>
+            )}
           </ul>
+          {SITE.enableMyList && r.whatsapp && (
+            <p className="safe-bottom -mt-2 px-5 pb-4 text-[14px] leading-[1.4] text-muted">
+              Or tap + next to dishes, open Your list and choose Order for delivery.
+            </p>
+          )}
         </SheetContent>
       </Sheet>
 

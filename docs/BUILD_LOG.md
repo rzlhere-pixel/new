@@ -124,3 +124,16 @@ Checked and left as is: no all-caps labels, no middle-dot strings, no monospace,
 - **LCP 3.0 to 3.1 s (budget 2.0 s) and Performance 92 (budget 95).** The hero AVIF is preloaded, discoverable, `fetchpriority="high"` and not lazy; the time goes on bandwidth under slow-4G simulation, where the 68 kB hero image shares the line with ~130 kB of JavaScript. Removing the font preloads made no difference (tested). Making the image smaller would mean re-encoding the supplied assets, which §14 forbids.
 - **JS 133 kB gzipped for `/` (budget 120 kB).** React 19 plus TanStack Start and Router is ~110 kB before any app code; the menu data is ~9 kB of that and the rest is the UI. Already removed `vaul` and `tailwind-merge` from the page (saved ~27 kB). Getting under 120 kB would need a framework change, which §1 and §14 forbid.
 - **`/qr` CLS 0.13.** Comes from the preview-address warning banner appearing after the origin is read in the browser. It only shows on preview addresses, and the page is a staff tool.
+
+## Addendum, 1 Nov 2026: WhatsApp delivery orders
+
+Requested by the owner after the first PR: customers in the delivery area pick their building and send the order to the restaurant's WhatsApp.
+
+- `restaurant.whatsapp` set to `971506539192` (050 653 9192), confirmed by the owner. This is the only change to `menu.json`.
+- `src/data/delivery-buildings.json`: the 76 buildings from `docs/source/Al_Nahda_Highlighted_Area_Building_Register.xlsx`, sorted A to Z, with their street. Street labels shortened where the register gave two ("Bukhara Street / Al Nahda Street" → "Bukhara Street"; "Al Nahda / near Nahda Roundabout" → "Near Al Nahda Roundabout"). The register itself says every row still "needs precise boundary check", so "My building isn't listed" lets customers type theirs.
+- Your list → **Order for delivery** → building search (or free text), flat / office number (required), floor, name and notes (optional) → **Send order on WhatsApp** opens `wa.me` with the order written out (serial numbers, options, quantities, approximate total, address). The customer presses send in WhatsApp; the site posts nothing. When the restaurant is closed, a note says so.
+- The address (not the notes) is remembered on the phone (`localStorage` key `aaw:delivery:v1`, wrapped in try/catch).
+- "Call to order" sheet gained a "Message us on WhatsApp" row.
+- Deviation from §14 ("no online ordering"): the owner asked for this. It stays a WhatsApp message with no backend and no payment.
+- JS for `/` is now about 136 kB gzipped (was 133 kB): the building list and the delivery form.
+- Tests: `src/test/delivery.test.ts` (building data, search, validation, message text, link). Screenshots `docs/qa/390x844-*-13/14/15-*.jpg`.

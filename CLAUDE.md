@@ -26,7 +26,8 @@ Read `AGENTS.md` too: never force-push or rewrite pushed history on the Lovable-
 - Keep `vite.config.ts` as is (`@lovable.dev/vite-tanstack-config` already adds React, Tailwind, tsconfig paths, Nitro and lovable-tagger; adding them again breaks the build).
 - Keep `src/routes/__root.tsx` (shell, head tags, 404) with its `<Outlet />`, `src/router.tsx`, `src/server.ts`, the `@/` alias, and the `dev`/`build`/`preview`/`lint`/`test` scripts.
 - `src/routeTree.gen.ts` is generated; don't edit it.
-- No backend, no Supabase usage, no auth, no payments, no online ordering, no service worker, no analytics, no cookie banner. Static data only.
+- No backend, no Supabase usage, no auth, no payments, no service worker, no analytics, no cookie banner. Static data only. Delivery orders are a pre-filled WhatsApp message (`src/lib/delivery.ts`); the customer presses send in WhatsApp, nothing is posted by the site.
+- Delivery buildings live in `src/data/delivery-buildings.json` (from the owner's building register). Don't invent buildings.
 - Use bun only; never add another lockfile. `bun.lock` pins some packages to Lovable's npm mirror; keep those URLs.
 
 ## Design tokens (BUILD_PROMPT §6)

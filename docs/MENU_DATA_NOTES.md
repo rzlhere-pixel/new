@@ -69,7 +69,7 @@ Rows split into separate items: Black Tea / Lime Tea, Coffee / Special Coffee, H
 4. **Friday**: the sheet has no Wadi Daily Special for Friday. The app shows only Kallil Chutta Chicken (Pepper) as today's item on Fridays.
 5. **Fish Chatty Curry (83) and Fish Mango Curry (84)**: one price for both Ayala and King Fish, as in the sheet.
 6. **Opening hours**: from Google Maps (daily 6:00 AM to midnight).
-7. **WhatsApp**: 050 653 9192 is a mobile number, but nothing says it takes WhatsApp orders. `restaurant.whatsapp` is `null`, so WhatsApp buttons stay hidden until a number is set.
+7. **WhatsApp**: 050 653 9192 is a mobile number, but nothing says it takes WhatsApp orders. `restaurant.whatsapp` is `null`, so WhatsApp buttons stay hidden until a number is set. **Update 1 Nov 2026:** the owner confirmed 050 653 9192 for WhatsApp delivery orders; `restaurant.whatsapp` is now `"971506539192"`.
 8. **Veg / non-veg markers**: `diet` is filled in only where the dish name says it (chicken, beef, fish, egg, paneer, gobi, dal and similar) or the dish is a standard plain veg staple (dosa, idly, appam). Everything else is `null`. The app keeps the markers off until `SHOW_DIET_MARKERS` is set to `true` after the restaurant checks them.
 
 ## In printed menus but not in the September 2026 sheet (left out)

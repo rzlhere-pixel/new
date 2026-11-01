@@ -45,7 +45,7 @@
       "ok": true
     },
     "searchCount": 22,
-    "listText": "Your list\n\nA note to show when you order. Nothing is sent to the restaurant.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nShow to staff\nClear list",
+    "listText": "Your list\n\nShow it at the counter, or send it to us on WhatsApp for delivery.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nOrder for delivery\nShow to staff\nClear list",
     "staffText": "Order\n1\nMasala Dosa\n× 2\n17\nEgg Curry\nDouble\n× 1\n64\nPothi Biriyani\nMutton\n× 1\nDone",
     "errors": [
       "Failed to load resource: the server responded with a status of 404 ()"
@@ -97,7 +97,7 @@
       "ok": true
     },
     "searchCount": 22,
-    "listText": "Your list\n\nA note to show when you order. Nothing is sent to the restaurant.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nShow to staff\nClear list",
+    "listText": "Your list\n\nShow it at the counter, or send it to us on WhatsApp for delivery.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nOrder for delivery\nShow to staff\nClear list",
     "staffText": "Order\n1\nMasala Dosa\n× 2\n17\nEgg Curry\nDouble\n× 1\n64\nPothi Biriyani\nMutton\n× 1\nDone",
     "errors": [
       "Failed to load resource: the server responded with a status of 404 ()"
@@ -149,7 +149,7 @@
       "ok": true
     },
     "searchCount": 22,
-    "listText": "Your list\n\nA note to show when you order. Nothing is sent to the restaurant.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nShow to staff\nClear list",
+    "listText": "Your list\n\nShow it at the counter, or send it to us on WhatsApp for delivery.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nOrder for delivery\nShow to staff\nClear list",
     "staffText": "Order\n1\nMasala Dosa\n× 2\n17\nEgg Curry\nDouble\n× 1\n64\nPothi Biriyani\nMutton\n× 1\nDone",
     "errors": [
       "Failed to load resource: the server responded with a status of 404 ()"
@@ -201,7 +201,7 @@
       "ok": true
     },
     "searchCount": 22,
-    "listText": "Your list\n\nA note to show when you order. Nothing is sent to the restaurant.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nShow to staff\nClear list",
+    "listText": "Your list\n\nShow it at the counter, or send it to us on WhatsApp for delivery.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nOrder for delivery\nShow to staff\nClear list",
     "staffText": "Order\n1\nMasala Dosa\n× 2\n17\nEgg Curry\nDouble\n× 1\n64\nPothi Biriyani\nMutton\n× 1\nDone",
     "errors": [
       "Failed to load resource: the server responded with a status of 404 ()"
@@ -253,7 +253,7 @@
       "ok": true
     },
     "searchCount": 22,
-    "listText": "Your list\n\nA note to show when you order. Nothing is sent to the restaurant.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nShow to staff\nClear list",
+    "listText": "Your list\n\nShow it at the counter, or send it to us on WhatsApp for delivery.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nOrder for delivery\nShow to staff\nClear list",
     "staffText": "Order\n1\nMasala Dosa\n× 2\n17\nEgg Curry\nDouble\n× 1\n64\nPothi Biriyani\nMutton\n× 1\nDone",
     "errors": [
       "Failed to load resource: the server responded with a status of 404 ()"
@@ -305,7 +305,7 @@
       "ok": true
     },
     "searchCount": 22,
-    "listText": "Your list\n\nA note to show when you order. Nothing is sent to the restaurant.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nShow to staff\nClear list",
+    "listText": "Your list\n\nShow it at the counter, or send it to us on WhatsApp for delivery.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nOrder for delivery\nShow to staff\nClear list",
     "staffText": "Order\n1\nMasala Dosa\n× 2\n17\nEgg Curry\nDouble\n× 1\n64\nPothi Biriyani\nMutton\n× 1\nDone",
     "errors": [
       "Failed to load resource: the server responded with a status of 404 ()"
@@ -357,7 +357,7 @@
       "ok": true
     },
     "searchCount": 22,
-    "listText": "Your list\n\nA note to show when you order. Nothing is sent to the restaurant.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nShow to staff\nClear list",
+    "listText": "Your list\n\nShow it at the counter, or send it to us on WhatsApp for delivery.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nOrder for delivery\nShow to staff\nClear list",
     "staffText": "Order\n1\nMasala Dosa\n× 2\n17\nEgg Curry\nDouble\n× 1\n64\nPothi Biriyani\nMutton\n× 1\nDone",
     "errors": [
       "Failed to load resource: the server responded with a status of 404 ()"
@@ -409,7 +409,7 @@
       "ok": true
     },
     "searchCount": 22,
-    "listText": "Your list\n\nA note to show when you order. Nothing is sent to the restaurant.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nShow to staff\nClear list",
+    "listText": "Your list\n\nShow it at the counter, or send it to us on WhatsApp for delivery.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nOrder for delivery\nShow to staff\nClear list",
     "staffText": "Order\n1\nMasala Dosa\n× 2\n17\nEgg Curry\nDouble\n× 1\n64\nPothi Biriyani\nMutton\n× 1\nDone",
     "errors": [
       "Failed to load resource: the server responded with a status of 404 ()"
@@ -461,7 +461,7 @@
       "ok": true
     },
     "searchCount": 22,
-    "listText": "Your list\n\nA note to show when you order. Nothing is sent to the restaurant.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nShow to staff\nClear list",
+    "listText": "Your list\n\nShow it at the counter, or send it to us on WhatsApp for delivery.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nOrder for delivery\nShow to staff\nClear list",
     "staffText": "Order\n1\nMasala Dosa\n× 2\n17\nEgg Curry\nDouble\n× 1\n64\nPothi Biriyani\nMutton\n× 1\nDone",
     "errors": [
       "Failed to load resource: the server responded with a status of 404 ()"
@@ -513,7 +513,7 @@
       "ok": true
     },
     "searchCount": 22,
-    "listText": "Your list\n\nA note to show when you order. Nothing is sent to the restaurant.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nShow to staff\nClear list",
+    "listText": "Your list\n\nShow it at the counter, or send it to us on WhatsApp for delivery.\n\nMasala Dosa\n\nAED 7 each\n\n2\n\nEgg Curry\n\nDouble, AED 7 each\n\n1\n\nPothi Biriyani\n\nMutton, AED 21 each\n\n1\n\nApprox. total\nAED 42\n\nOrder for delivery\nShow to staff\nClear list",
     "staffText": "Order\n1\nMasala Dosa\n× 2\n17\nEgg Curry\nDouble\n× 1\n64\nPothi Biriyani\nMutton\n× 1\nDone",
     "errors": [
       "Failed to load resource: the server responded with a status of 404 ()"
