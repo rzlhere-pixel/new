@@ -1,0 +1,2396 @@
+{
+  "meta": {
+    "source": "WADI_Menu_Modified_2026_25092026.xlsx (sheet \"MENU 2026\", columns A to E only)",
+    "sourceDate": "2026-09-25",
+    "currency": "AED",
+    "timezone": "Asia/Dubai",
+    "excluded": "Talabat columns F to H (listing flag, +28% delivery-app markup) are internal and not used"
+  },
+  "restaurant": {
+    "name": "Arous Al Wadi Restaurant",
+    "nameAr": "مطعم عروس الوادي",
+    "logoTaglineMl": "തട്ടിക്കൂട്ട്",
+    "area": "Al Nahda, Sharjah",
+    "address": "Bukhara Street, Al Nahda, Sharjah, United Arab Emirates",
+    "geo": {
+      "lat": 25.3016037,
+      "lng": 55.3795801
+    },
+    "mapsUrl": "https://maps.app.goo.gl/rke6DTnZ3HSgGzZq8",
+    "hours": {
+      "daily": {
+        "open": "06:00",
+        "close": "24:00"
+      },
+      "source": "Google Maps listing, confirm with restaurant"
+    },
+    "phones": [
+      {
+        "label": "Restaurant",
+        "display": "06 536 3600",
+        "tel": "+97165363600"
+      },
+      {
+        "label": "Mobile",
+        "display": "050 653 9192",
+        "tel": "+971506539192"
+      }
+    ],
+    "whatsapp": null,
+    "email": "alwadi.nms@gmail.com",
+    "freeHomeDelivery": true
+  },
+  "groups": [
+    {
+      "id": "breakfast",
+      "title": "Breakfast",
+      "sections": [
+        {
+          "id": "breakfast",
+          "title": "Breakfast",
+          "items": [
+            {
+              "id": "masala-dosa",
+              "no": "1",
+              "name": "Masala Dosa",
+              "source": "MASALA DOSA",
+              "price": 7,
+              "diet": "veg"
+            },
+            {
+              "id": "chicken-masala-dosa",
+              "no": "2",
+              "name": "Chicken Masala Dosa",
+              "source": "CHICKEN MASALA DOSA",
+              "price": 10,
+              "diet": "non-veg"
+            },
+            {
+              "id": "ghee-roast",
+              "no": "3",
+              "name": "Ghee Roast",
+              "source": "GHEE ROAST",
+              "price": 7,
+              "diet": "veg"
+            },
+            {
+              "id": "set-dosa",
+              "no": "4",
+              "name": "Set Dosa",
+              "source": "SET DOSA",
+              "price": 6,
+              "diet": "veg"
+            },
+            {
+              "id": "plain-roast",
+              "no": "5",
+              "name": "Plain Roast",
+              "source": "PLAIN ROAST",
+              "price": 6,
+              "diet": "veg"
+            },
+            {
+              "id": "poori-bhaji-2-pcs",
+              "no": "6",
+              "name": "Poori Bhaji (2 pcs)",
+              "source": "POORI BHAJI (2Pc)",
+              "price": 6,
+              "diet": "veg"
+            },
+            {
+              "id": "poori-bhaji",
+              "no": "7",
+              "name": "Poori Bhaji",
+              "source": "POORI BHAJI",
+              "price": 7,
+              "diet": "veg"
+            },
+            {
+              "id": "idly-set",
+              "no": "8",
+              "name": "Idly Set",
+              "source": "IDLY SET",
+              "price": 6,
+              "diet": "veg"
+            },
+            {
+              "id": "idly-vada-set",
+              "no": "9",
+              "name": "Idly Vada Set",
+              "source": "IDLY VADA SET",
+              "price": 6,
+              "diet": "veg"
+            },
+            {
+              "id": "uthappam-set",
+              "no": "10",
+              "name": "Uthappam Set",
+              "source": "UTHAPPAM SET",
+              "price": 6,
+              "diet": "veg"
+            },
+            {
+              "id": "puttu",
+              "no": "11",
+              "name": "Puttu",
+              "source": "PUTTU",
+              "price": 4,
+              "diet": "veg"
+            },
+            {
+              "id": "kadala-curry",
+              "no": "12",
+              "name": "Kadala Curry",
+              "source": "KADALA CURRY",
+              "price": 5,
+              "diet": "veg"
+            },
+            {
+              "id": "cherupayar-curry",
+              "no": "13",
+              "name": "Cherupayar Curry",
+              "source": "CHERUPAYAR CURRY",
+              "price": 5,
+              "diet": "veg"
+            },
+            {
+              "id": "green-peas",
+              "no": "14",
+              "name": "Green Peas",
+              "source": "GREEN PEAS",
+              "price": 5,
+              "diet": "veg"
+            },
+            {
+              "id": "egg-burji",
+              "no": "15",
+              "name": "Egg Burji",
+              "source": "EGG BURJI",
+              "price": 6,
+              "diet": "non-veg"
+            },
+            {
+              "id": "egg-curry",
+              "name": "Egg Curry",
+              "source": "EGG CURRY - SINGLE / DOUBLE",
+              "variants": [
+                {
+                  "label": "Single",
+                  "price": 5,
+                  "no": "16"
+                },
+                {
+                  "label": "Double",
+                  "price": 7,
+                  "no": "17"
+                }
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "egg-roast",
+              "name": "Egg Roast",
+              "source": "EGG ROAST - SINGLE / DOUBLE",
+              "variants": [
+                {
+                  "label": "Single",
+                  "price": 6,
+                  "no": "18"
+                },
+                {
+                  "label": "Double",
+                  "price": 8,
+                  "no": "19"
+                }
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "bhaji",
+              "no": "20",
+              "name": "Bhaji",
+              "source": "BHAJI",
+              "price": 5,
+              "diet": "veg"
+            },
+            {
+              "id": "kheema",
+              "no": "21",
+              "name": "Kheema",
+              "source": "KHEEMA",
+              "price": 7,
+              "diet": "non-veg"
+            },
+            {
+              "id": "omelette",
+              "name": "Omelette",
+              "source": "OMELETTE SINGLE/DOUBLE",
+              "variants": [
+                {
+                  "label": "Single",
+                  "price": 2.5,
+                  "no": "22"
+                },
+                {
+                  "label": "Double",
+                  "price": 5,
+                  "no": "23"
+                }
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "vada-set",
+              "name": "Vada Set",
+              "source": "VADA SET (3Pcs) | VADA SET (2Pcs)",
+              "variants": [
+                {
+                  "label": "3 pcs",
+                  "price": 6,
+                  "no": "24"
+                },
+                {
+                  "label": "2 pcs",
+                  "price": 5,
+                  "no": "25"
+                }
+              ],
+              "diet": "veg"
+            },
+            {
+              "id": "sambar",
+              "no": "26",
+              "name": "Sambar",
+              "source": "Saambar",
+              "price": 5,
+              "diet": "veg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tea-snacks",
+      "title": "Tea & Snacks",
+      "sections": [
+        {
+          "id": "tea-snacks",
+          "title": "Tea & Snacks",
+          "items": [
+            {
+              "id": "cutlet",
+              "name": "Cutlet",
+              "source": "CUTLET - BEEF/CKN",
+              "variants": [
+                {
+                  "label": "Beef",
+                  "price": 3.5,
+                  "no": "27"
+                },
+                {
+                  "label": "Chicken",
+                  "price": 3.5,
+                  "no": "28"
+                }
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "samoosa",
+              "name": "Samoosa",
+              "source": "SAMOOSA - VEG/CKN",
+              "variants": [
+                {
+                  "label": "Veg",
+                  "price": 1.5,
+                  "no": "29"
+                },
+                {
+                  "label": "Chicken",
+                  "price": 2,
+                  "no": "30"
+                }
+              ],
+              "diet": null
+            },
+            {
+              "id": "chicken-roll",
+              "no": "31",
+              "name": "Chicken Roll",
+              "source": "CHICKEN ROLL",
+              "price": 3.5,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-pathiri",
+              "no": "32",
+              "name": "Chicken Pathiri",
+              "source": "CHICKEN PATHIRI",
+              "price": 3,
+              "diet": "non-veg"
+            },
+            {
+              "id": "parippu-vada-dal-vada",
+              "no": "33",
+              "name": "Parippu Vada (Dal Vada)",
+              "source": "PARIPPU VADA / DAL VADA",
+              "price": 1.5,
+              "diet": "veg"
+            },
+            {
+              "id": "pakkavada",
+              "no": "34",
+              "name": "Pakkavada",
+              "source": "PAKKAVADA",
+              "price": 1.5,
+              "diet": "veg"
+            },
+            {
+              "id": "chatti-pathiri-sweet",
+              "no": "35",
+              "name": "Chatti Pathiri (Sweet)",
+              "source": "CHATTI PATHIRI - SWEET",
+              "price": 3.5,
+              "diet": null
+            },
+            {
+              "id": "kaipola-sweet",
+              "no": "36",
+              "name": "Kaipola (Sweet)",
+              "source": "KAIPOLA - SWEET",
+              "price": 3.5,
+              "diet": null
+            },
+            {
+              "id": "pazham-pori-banana-fry",
+              "no": "37",
+              "name": "Pazham Pori (Banana Fry)",
+              "source": "PAZHAM PORI / BANANA FRY",
+              "price": 2,
+              "diet": "veg"
+            },
+            {
+              "id": "unnakkaya",
+              "no": "38",
+              "name": "Unnakkaya",
+              "source": "UNNAKKAYA",
+              "price": 3,
+              "diet": null
+            },
+            {
+              "id": "elayada",
+              "no": "39",
+              "name": "Elayada",
+              "source": "ELAYADA",
+              "price": 3,
+              "diet": null
+            },
+            {
+              "id": "masala-bonda",
+              "no": "40",
+              "name": "Masala Bonda",
+              "source": "MASALA BONDA",
+              "price": 2.5,
+              "diet": "veg"
+            },
+            {
+              "id": "sweet-bonda",
+              "no": "41",
+              "name": "Sweet Bonda",
+              "source": "SWEET BONDA",
+              "price": 2,
+              "diet": "veg"
+            },
+            {
+              "id": "kalthappam",
+              "no": "42",
+              "name": "Kalthappam",
+              "source": "KALTHAPPAM",
+              "price": 2.5,
+              "diet": null
+            },
+            {
+              "id": "fresh-tea",
+              "no": "43",
+              "name": "Fresh Tea",
+              "source": "FRESH TEA",
+              "price": 2,
+              "diet": null
+            },
+            {
+              "id": "karak-tea",
+              "no": "44",
+              "name": "Karak Tea",
+              "source": "KARAK TEA",
+              "price": 1,
+              "diet": null
+            },
+            {
+              "id": "black-tea",
+              "no": "45",
+              "name": "Black Tea",
+              "source": "BLACK TEA/LIME TEA",
+              "price": 1,
+              "diet": null
+            },
+            {
+              "id": "lime-tea",
+              "no": "46",
+              "name": "Lime Tea",
+              "source": "BLACK TEA/LIME TEA",
+              "price": 1,
+              "diet": null
+            },
+            {
+              "id": "green-tea",
+              "no": "47",
+              "name": "Green Tea",
+              "source": "GREEN TEA",
+              "price": 1,
+              "diet": null
+            },
+            {
+              "id": "coffee",
+              "no": "48",
+              "name": "Coffee",
+              "source": "COFFEE/SP COFFEE",
+              "price": 2,
+              "diet": null
+            },
+            {
+              "id": "special-coffee",
+              "no": "49",
+              "name": "Special Coffee",
+              "source": "COFFEE/SP COFFEE",
+              "price": 3,
+              "diet": null
+            },
+            {
+              "id": "horlicks",
+              "no": "50",
+              "name": "Horlicks",
+              "source": "HORLICKS / BOOST",
+              "price": 4,
+              "diet": null
+            },
+            {
+              "id": "boost",
+              "no": "51",
+              "name": "Boost",
+              "source": "HORLICKS / BOOST",
+              "price": 4,
+              "diet": null
+            },
+            {
+              "id": "fresh-milk",
+              "no": "52",
+              "name": "Fresh Milk",
+              "source": "FRESH MILK",
+              "price": 3,
+              "diet": null
+            },
+            {
+              "id": "ginger-tea",
+              "no": "53",
+              "name": "Ginger Tea",
+              "source": "GINGER TEA",
+              "price": 1,
+              "diet": null
+            },
+            {
+              "id": "special-tea",
+              "no": "54",
+              "name": "Special Tea",
+              "source": "SPECIAL TEA",
+              "price": 1.5,
+              "diet": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lunch",
+      "title": "Lunch",
+      "sections": [
+        {
+          "id": "lunch",
+          "title": "Lunch",
+          "items": [
+            {
+              "id": "mutton-dum-biriyani",
+              "no": "55",
+              "name": "Mutton Dum Biriyani",
+              "source": "MUTTON DUM BIRIYANI",
+              "price": 19,
+              "diet": "non-veg"
+            },
+            {
+              "id": "beef-dum-biriyani",
+              "no": "56",
+              "name": "Beef Dum Biriyani",
+              "source": "BEEF DUM BIRIYANI",
+              "price": 17,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-dum-biriyani",
+              "no": "57",
+              "name": "Chicken Dum Biriyani",
+              "source": "CHICKEN DUM BIRIYANI",
+              "price": 13,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-fried-biriyani",
+              "no": "58",
+              "name": "Chicken Fried Biriyani",
+              "source": "CHICKEN FRIED BIRIYANI",
+              "price": 14,
+              "diet": "non-veg"
+            },
+            {
+              "id": "vegetable-biriyani",
+              "no": "59",
+              "name": "Vegetable Biriyani",
+              "source": "VEGETABLE BIRIYANI",
+              "price": 12,
+              "diet": "veg"
+            },
+            {
+              "id": "egg-biriyani",
+              "no": "60",
+              "name": "Egg Biriyani",
+              "source": "EGG BIRIYANI",
+              "price": 11,
+              "diet": "non-veg"
+            },
+            {
+              "id": "fish-biriyani",
+              "no": "61",
+              "name": "Fish Biriyani",
+              "source": "FISH BIRIYANI",
+              "price": 18,
+              "diet": "non-veg"
+            },
+            {
+              "id": "pothi-biriyani",
+              "name": "Pothi Biriyani",
+              "source": "POTHIBIRIYANI CHICKEN | POTHIBIRIYANI BEEF | POTHIBIRIYANI MUTTON | POTHIBIRIYANI FISH",
+              "variants": [
+                {
+                  "label": "Chicken",
+                  "price": 16,
+                  "no": "62"
+                },
+                {
+                  "label": "Beef",
+                  "price": 19,
+                  "no": "63"
+                },
+                {
+                  "label": "Mutton",
+                  "price": 21,
+                  "no": "64"
+                },
+                {
+                  "label": "Fish",
+                  "price": 20,
+                  "no": "65"
+                }
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "meals-veg-non-veg",
+              "no": "66",
+              "name": "Meals (Veg / Non-Veg)",
+              "source": "MEALS - VEG/NON VEG (Barik / Motta)",
+              "price": 11,
+              "options": "Barik or Motta rice",
+              "diet": null
+            },
+            {
+              "id": "biriyani-rice",
+              "no": "67",
+              "name": "Biriyani Rice",
+              "source": "BIRIYANI RICE",
+              "price": 8,
+              "diet": null
+            },
+            {
+              "id": "plain-rice",
+              "no": "68",
+              "name": "Plain Rice",
+              "source": "PLAIN RICE-MOTTA/BARIK",
+              "price": 6,
+              "options": "Motta or Barik",
+              "diet": null
+            },
+            {
+              "id": "ghee-rice",
+              "no": "69",
+              "name": "Ghee Rice",
+              "source": "GHEE RICE",
+              "price": 8,
+              "diet": null
+            },
+            {
+              "id": "veg-pulao",
+              "no": "70",
+              "name": "Veg Pulao",
+              "source": "VEG PULAO",
+              "price": 14,
+              "diet": "veg"
+            },
+            {
+              "id": "pothichoru-special",
+              "no": "71",
+              "name": "Pothichoru Special",
+              "source": "POTHICHORU SPECIAL",
+              "price": 17,
+              "diet": null
+            }
+          ],
+          "image": "biryani-handi"
+        }
+      ]
+    },
+    {
+      "id": "daily-specials",
+      "title": "Wadi Daily Specials",
+      "sections": [
+        {
+          "id": "wadi-daily-specials",
+          "title": "Wadi Daily Specials",
+          "items": [
+            {
+              "id": "chatti-choru",
+              "name": "Chatti Choru",
+              "source": "CHATTI CHORU FISH/CHICKEN /BEEF",
+              "variants": [
+                {
+                  "label": "Fish",
+                  "price": 17,
+                  "no": "72"
+                },
+                {
+                  "label": "Chicken",
+                  "price": 15,
+                  "no": "73"
+                },
+                {
+                  "label": "Beef",
+                  "price": 16,
+                  "no": "74"
+                }
+              ],
+              "availableDays": [
+                "sun"
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-majboos",
+              "no": "75",
+              "name": "Chicken Majboos",
+              "source": "CHICKEN MAJBOOS",
+              "price": 13,
+              "availableDays": [
+                "mon"
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "palli-choru",
+              "name": "Palli Choru",
+              "source": "PALLI CHORU-BEEF/CHICKEN",
+              "variants": [
+                {
+                  "label": "Beef",
+                  "price": 16,
+                  "no": "76"
+                },
+                {
+                  "label": "Chicken",
+                  "price": 15,
+                  "no": "77"
+                }
+              ],
+              "availableDays": [
+                "tue"
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "erachi-choru-beef",
+              "no": "78",
+              "name": "Erachi Choru (Beef)",
+              "source": "ERACHI CHORU-BEEF",
+              "price": 13,
+              "availableDays": [
+                "wed"
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "ghee-rice-with-beef-ularth",
+              "no": "79",
+              "name": "Ghee Rice with Beef Ularth",
+              "source": "GHEE RICE WITH BEEF ULARTH",
+              "price": 15,
+              "availableDays": [
+                "thu"
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "kerala-pazhankanji",
+              "no": "80",
+              "name": "Kerala Pazhankanji",
+              "source": "KERALA PAZHANKANJI",
+              "price": 12,
+              "availableDays": [
+                "sat"
+              ],
+              "diet": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fish-specials",
+      "title": "Fish Specials",
+      "sections": [
+        {
+          "id": "fish-specials",
+          "title": "Fish Specials",
+          "items": [
+            {
+              "id": "angamali-fish-curry",
+              "no": "81",
+              "name": "Angamali Fish Curry",
+              "source": "ANGAMALI FISH CURRY",
+              "price": null,
+              "priceNote": "As per size",
+              "diet": "non-veg"
+            },
+            {
+              "id": "travancore-fish-curry",
+              "no": "82",
+              "name": "Travancore Fish Curry",
+              "source": "TRAVANCORE FISH CURRY",
+              "price": null,
+              "priceNote": "As per size",
+              "diet": "non-veg"
+            },
+            {
+              "id": "fish-chatty-curry",
+              "no": "83",
+              "name": "Fish Chatty Curry",
+              "source": "FISH CHATTY CURRY - AYALA / KING FISH",
+              "price": 18,
+              "options": "Ayala or King Fish",
+              "diet": "non-veg"
+            },
+            {
+              "id": "fish-mango-curry",
+              "no": "84",
+              "name": "Fish Mango Curry",
+              "source": "FISH MANGO CURRY - AYALA / KING FISH",
+              "price": 21,
+              "options": "Ayala or King Fish",
+              "diet": "non-veg"
+            },
+            {
+              "id": "king-fish-tawa-fry",
+              "no": "85",
+              "name": "King Fish Tawa Fry",
+              "source": "KING FISH TAWA FRY",
+              "price": null,
+              "priceNote": "As per size",
+              "diet": "non-veg"
+            },
+            {
+              "id": "ayala-tawa-fry",
+              "no": "86",
+              "name": "Ayala Tawa Fry",
+              "source": "AYALA TAWA FRY",
+              "price": null,
+              "priceNote": "As per size",
+              "diet": "non-veg"
+            },
+            {
+              "id": "crab-pepper-masala",
+              "no": "87",
+              "name": "Crab Pepper Masala",
+              "source": "CRAB PEPPER MASALA",
+              "price": 18,
+              "diet": "non-veg"
+            },
+            {
+              "id": "ilayil-pollichath",
+              "name": "Ilayil Pollichath",
+              "source": "ILAYIL POLLICHATH - KING FISH | ILAYIL POLLICHATH - MATHI 3PCS | ILAYIL POLLICHATH - SHERRY",
+              "variants": [
+                {
+                  "label": "King Fish",
+                  "price": null,
+                  "no": "88",
+                  "priceNote": "As per size"
+                },
+                {
+                  "label": "Mathi (3 pcs)",
+                  "price": 12,
+                  "no": "89"
+                },
+                {
+                  "label": "Sherry",
+                  "price": null,
+                  "no": "90",
+                  "priceNote": "As per size"
+                }
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "squid-dry-fry",
+              "no": "91",
+              "name": "Squid Dry Fry",
+              "source": "SQUID DRY FRY",
+              "price": 15,
+              "diet": "non-veg"
+            },
+            {
+              "id": "squid-pepper-masala",
+              "no": "92",
+              "name": "Squid Pepper Masala",
+              "source": "SQUID PEPPER MASALA",
+              "price": 16,
+              "diet": "non-veg"
+            },
+            {
+              "id": "fish-dry-fry",
+              "name": "Fish Dry Fry",
+              "source": "FISH DRY FRY - MATHI / KING FISH",
+              "variants": [
+                {
+                  "label": "Mathi",
+                  "price": 4,
+                  "no": "93"
+                },
+                {
+                  "label": "King Fish",
+                  "price": 12,
+                  "no": "94"
+                }
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "king-fish-masala-single",
+              "no": "95",
+              "name": "King Fish Masala (Single)",
+              "source": "KING FISH MASALA SINGLE",
+              "price": 11,
+              "diet": "non-veg"
+            },
+            {
+              "id": "prawns-mango-curry",
+              "no": "96",
+              "name": "Prawns Mango Curry",
+              "source": "PRAWNS MANGO CURRY",
+              "price": 20,
+              "diet": "non-veg"
+            },
+            {
+              "id": "prawns-curry",
+              "no": "97",
+              "name": "Prawns Curry",
+              "source": "PRAWNS CURRY",
+              "price": 18,
+              "diet": "non-veg"
+            },
+            {
+              "id": "prawns-roast",
+              "no": "98",
+              "name": "Prawns Roast",
+              "source": "PRAWNS ROAST",
+              "price": 18,
+              "diet": "non-veg"
+            },
+            {
+              "id": "pepper-prawns-dry-fry",
+              "no": "99",
+              "name": "Pepper Prawns Dry Fry",
+              "source": "PEPPER PRAWNS DRY FRY",
+              "price": 18,
+              "diet": "non-veg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chinese-soups",
+      "title": "Chinese & Soups",
+      "sections": [
+        {
+          "id": "chinese-soups",
+          "title": "Chinese & Soups",
+          "items": [
+            {
+              "id": "hot-sour-soup",
+              "name": "Hot & Sour Soup",
+              "source": "HOT & SOUR - MUTTON | HOT & SOUR - CHICKEN | HOT & SOUR - VEGETABLE",
+              "variants": [
+                {
+                  "label": "Mutton",
+                  "price": 12,
+                  "no": "100"
+                },
+                {
+                  "label": "Chicken",
+                  "price": 10,
+                  "no": "101"
+                },
+                {
+                  "label": "Vegetable",
+                  "price": 9,
+                  "no": "102"
+                }
+              ],
+              "diet": null
+            },
+            {
+              "id": "manchow-soup",
+              "name": "Manchow Soup",
+              "source": "MANCHOW MUTTON SOUP | MANCHOW CHICKEN SOUP",
+              "variants": [
+                {
+                  "label": "Mutton",
+                  "price": 12,
+                  "no": "103"
+                },
+                {
+                  "label": "Chicken",
+                  "price": 10,
+                  "no": "104"
+                }
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-chilly",
+              "no": "105",
+              "name": "Chicken Chilly",
+              "source": "CHICKEN CHILLY",
+              "price": 16,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-manchurian",
+              "no": "106",
+              "name": "Chicken Manchurian",
+              "source": "CHICKEN MANCHURIAN",
+              "price": 17,
+              "diet": "non-veg"
+            },
+            {
+              "id": "dragon-chicken",
+              "no": "107",
+              "name": "Dragon Chicken",
+              "source": "DRAGON CHICKEN",
+              "price": 18,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-garlic",
+              "no": "108",
+              "name": "Chicken Garlic",
+              "source": "CHICKEN GARLIC",
+              "price": 15,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-ginger",
+              "no": "109",
+              "name": "Chicken Ginger",
+              "source": "CHICKEN GINGER",
+              "price": 15,
+              "diet": "non-veg"
+            },
+            {
+              "id": "beef-chilly",
+              "no": "110",
+              "name": "Beef Chilly",
+              "source": "BEEF CHILLY",
+              "price": 18,
+              "diet": "non-veg"
+            },
+            {
+              "id": "dragon-beef",
+              "no": "111",
+              "name": "Dragon Beef",
+              "source": "DRAGON BEEF",
+              "price": 18,
+              "diet": "non-veg"
+            },
+            {
+              "id": "gobi-manchurian",
+              "name": "Gobi Manchurian",
+              "source": "GOBI MANCHURIAN SMALL/BIG",
+              "variants": [
+                {
+                  "label": "Small",
+                  "price": 12,
+                  "no": "112"
+                },
+                {
+                  "label": "Big",
+                  "price": 16,
+                  "no": "113"
+                }
+              ],
+              "diet": "veg"
+            },
+            {
+              "id": "chilly-gobi",
+              "name": "Chilly Gobi",
+              "source": "CHILLI GOBI SMALL/BIG",
+              "variants": [
+                {
+                  "label": "Small",
+                  "price": 12,
+                  "no": "114"
+                },
+                {
+                  "label": "Big",
+                  "price": 16,
+                  "no": "115"
+                }
+              ],
+              "diet": "veg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fried-rice-noodles",
+      "title": "Fried Rice & Noodles",
+      "sections": [
+        {
+          "id": "fried-rice-noodles",
+          "title": "Fried Rice & Noodles",
+          "items": [
+            {
+              "id": "mixed-fried-rice",
+              "no": "116",
+              "name": "Mixed Fried Rice",
+              "source": "FRIED RICE MIXED (NORMAL / SCHEZWAN)",
+              "variants": [
+                {
+                  "label": "Normal",
+                  "price": 20
+                },
+                {
+                  "label": "Schezwan",
+                  "price": 22
+                }
+              ],
+              "diet": null
+            },
+            {
+              "id": "beef-fried-rice",
+              "no": "117",
+              "name": "Beef Fried Rice",
+              "source": "FRIED RICE BEEF (NORMAL / SCHEZWAN)",
+              "variants": [
+                {
+                  "label": "Normal",
+                  "price": 18
+                },
+                {
+                  "label": "Schezwan",
+                  "price": 20
+                }
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-fried-rice",
+              "no": "118",
+              "name": "Chicken Fried Rice",
+              "source": "FRIED RICE CHICKEN (NORMAL / SCHEZWAN)",
+              "variants": [
+                {
+                  "label": "Normal",
+                  "price": 16
+                },
+                {
+                  "label": "Schezwan",
+                  "price": 18
+                }
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "egg-fried-rice",
+              "no": "119",
+              "name": "Egg Fried Rice",
+              "source": "FRIED RICE EGG (NORMAL / SCHEZWAN)",
+              "variants": [
+                {
+                  "label": "Normal",
+                  "price": 13
+                },
+                {
+                  "label": "Schezwan",
+                  "price": 15
+                }
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "veg-fried-rice",
+              "no": "120",
+              "name": "Veg Fried Rice",
+              "source": "FRIED RICE VEG (NORMAL / SCHEZWAN)",
+              "variants": [
+                {
+                  "label": "Normal",
+                  "price": 13
+                },
+                {
+                  "label": "Schezwan",
+                  "price": 15
+                }
+              ],
+              "diet": "veg"
+            },
+            {
+              "id": "mixed-noodles",
+              "no": "121",
+              "name": "Mixed Noodles",
+              "source": "NOODLES MIXED (NORMAL / SCHEZWAN)",
+              "variants": [
+                {
+                  "label": "Normal",
+                  "price": 20
+                },
+                {
+                  "label": "Schezwan",
+                  "price": 22
+                }
+              ],
+              "diet": null
+            },
+            {
+              "id": "chicken-noodles",
+              "no": "122",
+              "name": "Chicken Noodles",
+              "source": "NOODLES CHICKEN (NORMAL / SCHEZWAN)",
+              "variants": [
+                {
+                  "label": "Normal",
+                  "price": 16
+                },
+                {
+                  "label": "Schezwan",
+                  "price": 18
+                }
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "veg-noodles",
+              "no": "123",
+              "name": "Veg Noodles",
+              "source": "NOODLES VEG (NORMAL / SCHEZWAN)",
+              "variants": [
+                {
+                  "label": "Normal",
+                  "price": 14
+                },
+                {
+                  "label": "Schezwan",
+                  "price": 16
+                }
+              ],
+              "diet": "veg"
+            },
+            {
+              "id": "egg-noodles",
+              "no": "124",
+              "name": "Egg Noodles",
+              "source": "NOODLES EGG (NORMAL / SCHEZWAN)",
+              "variants": [
+                {
+                  "label": "Normal",
+                  "price": 14
+                },
+                {
+                  "label": "Schezwan",
+                  "price": 16
+                }
+              ],
+              "diet": "non-veg"
+            }
+          ],
+          "image": "fried-rice"
+        }
+      ]
+    },
+    {
+      "id": "dinner",
+      "title": "Dinner",
+      "sections": [
+        {
+          "id": "starters",
+          "title": "Starters",
+          "items": [
+            {
+              "id": "beef-25",
+              "no": "125",
+              "name": "Beef 25",
+              "source": "BEEF 25",
+              "price": 16,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-65-dry",
+              "no": "126",
+              "name": "Chicken 65 Dry",
+              "source": "CHICKEN 65 DRY",
+              "price": 16,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-dry-fry",
+              "no": "127",
+              "name": "Chicken Dry Fry",
+              "source": "CHICKEN DRY FRY",
+              "price": 16,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-lollipop",
+              "name": "Chicken Lollipop",
+              "source": "CHICKEN LOLLIPOP - DRY / GRAVY",
+              "variants": [
+                {
+                  "label": "Dry",
+                  "price": 14,
+                  "no": "128"
+                },
+                {
+                  "label": "Gravy",
+                  "price": 16,
+                  "no": "129"
+                }
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-kaandhari",
+              "name": "Chicken Kaandhari",
+              "source": "CHICKEN KAANDHARI - SMALL / BIG",
+              "variants": [
+                {
+                  "label": "Small",
+                  "price": 12,
+                  "no": "130"
+                },
+                {
+                  "label": "Big",
+                  "price": 16,
+                  "no": "131"
+                }
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-payyoli-fry",
+              "no": "132",
+              "name": "Chicken Payyoli Fry",
+              "source": "CHICKEN PAYYOLI FRY",
+              "price": 16,
+              "diet": "non-veg"
+            },
+            {
+              "id": "thattu-kada-beef-fry",
+              "no": "133",
+              "name": "Thattu Kada Beef Fry",
+              "source": "THATTU KADA BEEF FRY",
+              "price": 18,
+              "diet": "non-veg"
+            },
+            {
+              "id": "wadi-kada-fry-2-pcs",
+              "no": "134",
+              "name": "Wadi Kada Fry (2 pcs)",
+              "source": "WADI KADA FRY (2pcs)",
+              "price": 15,
+              "diet": null
+            },
+            {
+              "id": "mushroom-pepper-fry",
+              "no": "135",
+              "name": "Mushroom Pepper Fry",
+              "source": "MUSHROOM PEPPER FRY",
+              "price": 13,
+              "diet": "veg"
+            },
+            {
+              "id": "paneer-65",
+              "no": "136",
+              "name": "Paneer 65",
+              "source": "PANEER 65",
+              "price": 14,
+              "diet": "veg"
+            },
+            {
+              "id": "chilly-gobi-dry",
+              "no": "137",
+              "name": "Chilly Gobi Dry",
+              "source": "CHILLY GOBI DRY",
+              "price": 15,
+              "diet": "veg"
+            },
+            {
+              "id": "gobi-65",
+              "no": "138",
+              "name": "Gobi 65",
+              "source": "GOBI 65",
+              "price": 15,
+              "diet": "veg"
+            },
+            {
+              "id": "french-fries",
+              "no": "139",
+              "name": "French Fries",
+              "source": "FRENCH FRIES",
+              "price": 6,
+              "diet": "veg"
+            },
+            {
+              "id": "rappayi-chicken-fry",
+              "no": "140",
+              "name": "Rappayi Chicken Fry",
+              "source": "RAPPAYI CHICKEN FRY",
+              "variants": [
+                {
+                  "label": null,
+                  "price": 16
+                },
+                {
+                  "label": null,
+                  "price": 24
+                }
+              ],
+              "confirm": "Two prices (16 / 24) with no size labels in the sheet",
+              "diet": "non-veg"
+            }
+          ]
+        },
+        {
+          "id": "chicken",
+          "title": "Chicken",
+          "items": [
+            {
+              "id": "chicken-chatty-curry",
+              "no": "141",
+              "name": "Chicken Chatty Curry",
+              "source": "CHICKEN CHATTY CURRY",
+              "price": 16,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-stew",
+              "no": "142",
+              "name": "Chicken Stew",
+              "source": "CHICKEN STEW",
+              "price": 16,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-kashmiri",
+              "no": "143",
+              "name": "Chicken Kashmiri",
+              "source": "CHICKEN KASHMIRI",
+              "price": 16,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-malli-peralan",
+              "no": "144",
+              "name": "Chicken Malli Peralan",
+              "source": "CHICKEN MALLI PERALAN",
+              "price": 16,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-mappas",
+              "no": "145",
+              "name": "Chicken Mappas",
+              "source": "CHICKEN MAPPAS",
+              "price": 16,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-pallipalayam",
+              "no": "146",
+              "name": "Chicken Pallipalayam",
+              "source": "CHICKEN PALLIPALAYAM",
+              "price": 16,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-peralan",
+              "no": "147",
+              "name": "Chicken Peralan",
+              "source": "CHICKEN PERALAN",
+              "price": 17,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-ularthiyath",
+              "no": "148",
+              "name": "Chicken Ularthiyath",
+              "source": "CHICKEN ULARTHIYATH",
+              "price": 17,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-ullitheyal",
+              "no": "149",
+              "name": "Chicken Ullitheyal",
+              "source": "CHICKEN ULLITHEYAL",
+              "price": 17,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-valampiri",
+              "no": "150",
+              "name": "Chicken Valampiri",
+              "source": "CHICKEN VALAMPIRI",
+              "price": 17,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-chaps",
+              "no": "151",
+              "name": "Chicken Chaps",
+              "source": "CHICKEN CHAPS",
+              "price": 16,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-chukka",
+              "no": "152",
+              "name": "Chicken Chukka",
+              "source": "CHICKEN CHUKKA",
+              "price": 18,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-mezhuku-varatti",
+              "no": "153",
+              "name": "Chicken Mezhuku Varatti",
+              "source": "CHICKEN MEZHUKU VARATTI",
+              "price": 16,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-kadai",
+              "no": "154",
+              "name": "Chicken Kadai",
+              "source": "CHICKEN KADAI",
+              "price": 17,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-palli-curry",
+              "no": "155",
+              "name": "Chicken Palli Curry",
+              "source": "CHICKEN PALLI CURRY",
+              "price": 16,
+              "diet": "non-veg"
+            },
+            {
+              "id": "butter-chicken-boneless",
+              "no": "156",
+              "name": "Butter Chicken (Boneless)",
+              "source": "BUTTER CHICKEN BONELESS",
+              "price": 18,
+              "diet": "non-veg"
+            },
+            {
+              "id": "alleppey-chicken-curry",
+              "no": "157",
+              "name": "Alleppey Chicken Curry",
+              "source": "ALEPPY CHICKEN CURRY",
+              "price": 17,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-liver-fry",
+              "no": "158",
+              "name": "Chicken Liver Fry",
+              "source": "CHICKEN LIVER FRY",
+              "price": 13,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-liver-varattu",
+              "no": "159",
+              "name": "Chicken Liver Varattu",
+              "source": "CHICKEN LIVER VARATTU",
+              "price": 13,
+              "diet": "non-veg"
+            }
+          ]
+        },
+        {
+          "id": "beef",
+          "title": "Beef",
+          "items": [
+            {
+              "id": "beef-butter-masala",
+              "no": "160",
+              "name": "Beef Butter Masala",
+              "source": "BEEF BUTTER MASALA",
+              "price": 18,
+              "diet": "non-veg"
+            },
+            {
+              "id": "beef-coconut-fry",
+              "no": "161",
+              "name": "Beef Coconut Fry",
+              "source": "BEEF COCONUT FRY",
+              "price": 18,
+              "diet": "non-veg"
+            },
+            {
+              "id": "beef-eri-piri",
+              "no": "162",
+              "name": "Beef Eri Piri",
+              "source": "BEEF ERI PIRI",
+              "price": 18,
+              "diet": "non-veg"
+            },
+            {
+              "id": "beef-liver-varattiyathu",
+              "no": "163",
+              "name": "Beef Liver Varattiyathu",
+              "source": "BEEF LIVER VARATTIYATHU",
+              "price": 15,
+              "diet": "non-veg"
+            },
+            {
+              "id": "beef-botti-varattu",
+              "no": "164",
+              "name": "Beef Botti Varattu",
+              "source": "BEEF BOTTI  VARATTU",
+              "price": 15,
+              "diet": "non-veg"
+            },
+            {
+              "id": "beef-pallipalayam",
+              "no": "165",
+              "name": "Beef Pallipalayam",
+              "source": "BEEF PALLIPALAYAM",
+              "price": 18,
+              "diet": "non-veg"
+            },
+            {
+              "id": "beef-pepper-fry",
+              "no": "166",
+              "name": "Beef Pepper Fry",
+              "source": "BEEF PEPPER FRY",
+              "price": 18,
+              "diet": "non-veg"
+            },
+            {
+              "id": "beef-peralan",
+              "no": "167",
+              "name": "Beef Peralan",
+              "source": "BEEF PERALAN",
+              "price": 18,
+              "diet": "non-veg"
+            },
+            {
+              "id": "beef-roast",
+              "no": "168",
+              "name": "Beef Roast",
+              "source": "BEEF ROAST",
+              "price": 18,
+              "diet": "non-veg"
+            },
+            {
+              "id": "beef-ularthiyathu",
+              "no": "169",
+              "name": "Beef Ularthiyathu",
+              "source": "BEEF ULARTHIYATHU",
+              "price": 18,
+              "diet": "non-veg"
+            },
+            {
+              "id": "beef-varattiyathu",
+              "no": "170",
+              "name": "Beef Varattiyathu",
+              "source": "BEEF VARATTIYATHU",
+              "price": 18,
+              "diet": "non-veg"
+            },
+            {
+              "id": "beef-ulli-curry",
+              "no": "171",
+              "name": "Beef Ulli Curry",
+              "source": "BEEF ULLI CURRY",
+              "price": 19,
+              "diet": "non-veg"
+            },
+            {
+              "id": "beef-kurumulak-curry",
+              "no": "172",
+              "name": "Beef Kurumulak Curry",
+              "source": "BEEF KURUMULAK CURRY",
+              "price": 18,
+              "diet": "non-veg"
+            },
+            {
+              "id": "beef-botti-fry",
+              "no": "173",
+              "name": "Beef Botti Fry",
+              "source": "BEEF BOTTI FRY",
+              "price": 18,
+              "diet": "non-veg"
+            },
+            {
+              "id": "beef-liver-fry",
+              "no": "174",
+              "name": "Beef Liver Fry",
+              "source": "BEEF LIVER FRY",
+              "price": 18,
+              "diet": "non-veg"
+            }
+          ]
+        },
+        {
+          "id": "mutton",
+          "title": "Mutton",
+          "items": [
+            {
+              "id": "mutton-peralan",
+              "no": "175",
+              "name": "Mutton Peralan",
+              "source": "MUTTON PERALAN",
+              "price": 24,
+              "diet": "non-veg"
+            },
+            {
+              "id": "mutton-kadai",
+              "no": "176",
+              "name": "Mutton Kadai",
+              "source": "MUTTON KADAI",
+              "price": 20,
+              "diet": "non-veg"
+            },
+            {
+              "id": "mutton-chaps",
+              "no": "177",
+              "name": "Mutton Chaps",
+              "source": "MUTTON CHAPS",
+              "price": 20,
+              "diet": "non-veg"
+            },
+            {
+              "id": "mutton-mappas",
+              "no": "178",
+              "name": "Mutton Mappas",
+              "source": "MUTTON MAPPAS",
+              "price": 20,
+              "diet": "non-veg"
+            },
+            {
+              "id": "mutton-masala",
+              "no": "179",
+              "name": "Mutton Masala",
+              "source": "MUTTON MASALA",
+              "price": 19,
+              "diet": "non-veg"
+            },
+            {
+              "id": "mutton-pepper-fry",
+              "no": "180",
+              "name": "Mutton Pepper Fry",
+              "source": "MUTTON PEPPER FRY",
+              "price": 22,
+              "diet": "non-veg"
+            },
+            {
+              "id": "mutton-roast",
+              "no": "181",
+              "name": "Mutton Roast",
+              "source": "MUTTON ROAST",
+              "price": 20,
+              "diet": "non-veg"
+            },
+            {
+              "id": "mutton-stew",
+              "no": "182",
+              "name": "Mutton Stew",
+              "source": "MUTTON STEW",
+              "price": 22,
+              "diet": "non-veg"
+            },
+            {
+              "id": "mutton-ularthu",
+              "no": "183",
+              "name": "Mutton Ularthu",
+              "source": "MUTTON ULARTHU",
+              "price": 22,
+              "diet": "non-veg"
+            },
+            {
+              "id": "mutton-kurma",
+              "no": "184",
+              "name": "Mutton Kurma",
+              "source": "MUTTON KURMA",
+              "price": 20,
+              "diet": "non-veg"
+            }
+          ]
+        },
+        {
+          "id": "veg",
+          "title": "Veg",
+          "items": [
+            {
+              "id": "paneer-butter-masala",
+              "no": "185",
+              "name": "Paneer Butter Masala",
+              "source": "PANEER BUTTER MASALA",
+              "price": 14,
+              "diet": "veg"
+            },
+            {
+              "id": "paneer-kadai",
+              "no": "186",
+              "name": "Paneer Kadai",
+              "source": "PANEER KADAI",
+              "price": 15,
+              "diet": "veg"
+            },
+            {
+              "id": "paneer-manchurian",
+              "no": "187",
+              "name": "Paneer Manchurian",
+              "source": "PANEER MANJURIAN",
+              "price": 14,
+              "diet": "veg"
+            },
+            {
+              "id": "paneer-masala",
+              "no": "188",
+              "name": "Paneer Masala",
+              "source": "PANEER MASALA",
+              "price": 14,
+              "diet": "veg"
+            },
+            {
+              "id": "paneer-mutter-masala",
+              "no": "189",
+              "name": "Paneer Mutter Masala",
+              "source": "PANEER MUTTER MASALA",
+              "price": 15,
+              "diet": "veg"
+            },
+            {
+              "id": "mushroom-masala",
+              "no": "190",
+              "name": "Mushroom Masala",
+              "source": "MUSHROOM MASALA",
+              "price": 13,
+              "diet": "veg"
+            },
+            {
+              "id": "alu-gobi",
+              "no": "191",
+              "name": "Alu Gobi",
+              "source": "ALU GOBI",
+              "price": 10,
+              "diet": "veg"
+            },
+            {
+              "id": "gobi-masala",
+              "no": "192",
+              "name": "Gobi Masala",
+              "source": "GOBI MASALA",
+              "price": 12,
+              "diet": "veg"
+            },
+            {
+              "id": "mix-veg-masala",
+              "no": "193",
+              "name": "Mix Veg Masala",
+              "source": "MIX VEG MASALA",
+              "price": 10,
+              "diet": "veg"
+            },
+            {
+              "id": "veg-kadai",
+              "no": "194",
+              "name": "Veg Kadai",
+              "source": "VEG KADAI",
+              "price": 12,
+              "diet": "veg"
+            },
+            {
+              "id": "veg-kurma",
+              "no": "195",
+              "name": "Veg Kurma",
+              "source": "VEG KURMA",
+              "price": 10,
+              "diet": "veg"
+            },
+            {
+              "id": "green-peas-masala",
+              "no": "196",
+              "name": "Green Peas Masala",
+              "source": "GREEN PEAS MASALA",
+              "price": 10,
+              "diet": "veg"
+            },
+            {
+              "id": "tomato-fry",
+              "no": "197",
+              "name": "Tomato Fry",
+              "source": "TOMATO FRY",
+              "price": 8,
+              "diet": "veg"
+            },
+            {
+              "id": "dal-fry",
+              "no": "198",
+              "name": "Dal Fry",
+              "source": "DAL FRY",
+              "price": 8,
+              "diet": "veg"
+            },
+            {
+              "id": "dal-tadka",
+              "no": "199",
+              "name": "Dal Tadka",
+              "source": "DAL TADKA",
+              "price": 8,
+              "diet": "veg"
+            },
+            {
+              "id": "veg-manchurian",
+              "no": "200",
+              "name": "Veg Manchurian",
+              "source": "VEG MANCHURIAN",
+              "price": 14,
+              "diet": "veg"
+            },
+            {
+              "id": "bhindi-masala",
+              "no": "201",
+              "name": "Bhindi Masala",
+              "source": "BINDI MASALA",
+              "price": 12,
+              "diet": "veg"
+            },
+            {
+              "id": "channa-masala",
+              "no": "202",
+              "name": "Channa Masala",
+              "source": "CHANNA MASALA",
+              "price": 10,
+              "diet": "veg"
+            }
+          ]
+        },
+        {
+          "id": "bread",
+          "title": "Bread",
+          "items": [
+            {
+              "id": "kerala-porotta",
+              "no": "203",
+              "name": "Kerala Porotta",
+              "source": "KERALA POROTTA",
+              "price": 1.5,
+              "diet": null
+            },
+            {
+              "id": "wheat-porotta",
+              "no": "204",
+              "name": "Wheat Porotta",
+              "source": "WHEAT POROTTA",
+              "price": 2,
+              "diet": null
+            },
+            {
+              "id": "coin-porotta",
+              "no": "205",
+              "name": "Coin Porotta",
+              "source": "COIN POROTTA",
+              "price": 1.5,
+              "diet": null
+            },
+            {
+              "id": "chapathi-special",
+              "no": "206",
+              "name": "Chapathi (Special)",
+              "source": "CHAPATHI SP",
+              "price": 1.25,
+              "confirm": "\"SP\" read as Special",
+              "diet": "veg"
+            },
+            {
+              "id": "thattu-dosa",
+              "no": "207",
+              "name": "Thattu Dosa",
+              "source": "THATTU  DOSA",
+              "price": 1.5,
+              "diet": "veg"
+            },
+            {
+              "id": "wheat-dosa",
+              "no": "208",
+              "name": "Wheat Dosa",
+              "source": "WHEAT DOSA",
+              "price": 1.5,
+              "diet": "veg"
+            },
+            {
+              "id": "ari-rotti",
+              "no": "209",
+              "name": "Ari Rotti",
+              "source": "ARI ROTTI",
+              "price": 2,
+              "diet": "veg"
+            },
+            {
+              "id": "ney-pathal",
+              "no": "210",
+              "name": "Ney Pathal",
+              "source": "NEY PATHIL",
+              "price": 2,
+              "diet": null
+            },
+            {
+              "id": "nice-pathiri",
+              "no": "211",
+              "name": "Nice Pathiri",
+              "source": "NICE PATHIRI",
+              "price": 1,
+              "diet": null
+            },
+            {
+              "id": "appam",
+              "no": "212",
+              "name": "Appam",
+              "source": "APPAM",
+              "price": 1.5,
+              "diet": "veg"
+            },
+            {
+              "id": "idiyappam",
+              "no": "213",
+              "name": "Idiyappam",
+              "source": "IDIYAPPAM",
+              "price": 1.5,
+              "diet": "veg"
+            }
+          ]
+        },
+        {
+          "id": "thattikoottu-special",
+          "title": "Thattikoottu Special",
+          "items": [
+            {
+              "id": "kizhi-thattu-dosa",
+              "name": "Kizhi Thattu Dosa",
+              "source": "KIZHI THATTU DOSA CHICKEN | KIZHI THATTU DOSA BEEF",
+              "variants": [
+                {
+                  "label": "Chicken",
+                  "price": 16,
+                  "no": "214"
+                },
+                {
+                  "label": "Beef",
+                  "price": 18,
+                  "no": "215"
+                }
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "puthiyappla-kozhi-full",
+              "no": "216",
+              "name": "Puthiyappla Kozhi (Full)",
+              "source": "PUTHIYAPPLA KOZHI FULL",
+              "price": 35,
+              "diet": "non-veg"
+            },
+            {
+              "id": "kallil-chutta-chicken-normal",
+              "no": "217",
+              "name": "Kallil Chutta Chicken (Normal)",
+              "source": "KALLIL CHUTTA CHICKEN - NORMAL",
+              "price": 17,
+              "availableDays": [
+                "thu",
+                "sat"
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "kallil-chutta-chicken-pepper",
+              "no": "218",
+              "name": "Kallil Chutta Chicken (Pepper)",
+              "source": "KALLIL CHUTTA CHICKEN - PEPPER",
+              "price": 17,
+              "availableDays": [
+                "fri",
+                "sun"
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "pothi-porotta",
+              "name": "Pothi Porotta",
+              "source": "POTHI POROTTA CHICKEN | POTHI POROTTA BEEF",
+              "variants": [
+                {
+                  "label": "Chicken",
+                  "price": 16,
+                  "no": "219"
+                },
+                {
+                  "label": "Beef",
+                  "price": 18,
+                  "no": "220"
+                }
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "kizhi-porotta",
+              "name": "Kizhi Porotta",
+              "source": "KIZHI POROTTA CHICKEN | KIZHI POROTTA BEEF",
+              "variants": [
+                {
+                  "label": "Chicken",
+                  "price": 16,
+                  "no": "221"
+                },
+                {
+                  "label": "Beef",
+                  "price": 18,
+                  "no": "222"
+                }
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "kariveppila-chicken",
+              "no": "223",
+              "name": "Kariveppila Chicken",
+              "source": "KARI VEPPILA CHICKEN",
+              "price": 16,
+              "diet": "non-veg"
+            },
+            {
+              "id": "beef-palli-curry",
+              "no": "224",
+              "name": "Beef Palli Curry",
+              "source": "BEEF PALLI CURRY",
+              "price": 18,
+              "diet": "non-veg"
+            },
+            {
+              "id": "wayanadan-pothin-kaal",
+              "no": "225",
+              "name": "Wayanadan Pothin Kaal",
+              "source": "WAYANADAN POTHIN KAAL",
+              "price": 45,
+              "diet": "non-veg"
+            }
+          ],
+          "image": "kizhi-porotta"
+        },
+        {
+          "id": "mallus-thattikoottu-special",
+          "title": "Mallus Thattikoottu Special",
+          "items": [
+            {
+              "id": "kappa-biriyani",
+              "name": "Kappa Biriyani",
+              "source": "KAPPA BIRIYANI CHICKEN | KAPPA BIRIYANI BEEF",
+              "variants": [
+                {
+                  "label": "Chicken",
+                  "price": 15,
+                  "no": "226"
+                },
+                {
+                  "label": "Beef",
+                  "price": 17,
+                  "no": "227"
+                }
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "chicken-nadan-fry",
+              "name": "Chicken Nadan Fry",
+              "source": "CHICKEN NADAN FRY HALF | CHICKEN NADAN FRY FULL",
+              "variants": [
+                {
+                  "label": "Half",
+                  "price": 18,
+                  "no": "228"
+                },
+                {
+                  "label": "Full",
+                  "price": 32,
+                  "no": "229"
+                }
+              ],
+              "diet": "non-veg"
+            },
+            {
+              "id": "calicut-roast",
+              "no": "230",
+              "name": "Calicut Roast",
+              "source": "CALICUT ROAST",
+              "price": 16,
+              "diet": null
+            },
+            {
+              "id": "kothu-porotta",
+              "name": "Kothu Porotta",
+              "source": "KOTHU POROTTA CHICKEN | KOTHU POROTTA BEEF | KOTHU POROTTA EGG | KOTHU POROTTA VEG",
+              "variants": [
+                {
+                  "label": "Chicken",
+                  "price": 15,
+                  "no": "231"
+                },
+                {
+                  "label": "Beef",
+                  "price": 16,
+                  "no": "232"
+                },
+                {
+                  "label": "Egg",
+                  "price": 10,
+                  "no": "233"
+                },
+                {
+                  "label": "Veg",
+                  "price": 12,
+                  "no": "234"
+                }
+              ],
+              "diet": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "happy-hour",
+      "title": "Happy Hour Combo",
+      "sections": [
+        {
+          "id": "combos",
+          "title": "Combos",
+          "items": [
+            {
+              "id": "pathiri-chicken-curry",
+              "no": "235",
+              "name": "Pathiri + Chicken Curry",
+              "source": "PATHIRI + CHICKEN CURRY",
+              "price": 10,
+              "diet": "non-veg"
+            },
+            {
+              "id": "porotta-beef-curry",
+              "no": "236",
+              "name": "Porotta + Beef Curry",
+              "source": "POROTTA + BEEF CURRY",
+              "price": 12,
+              "diet": "non-veg"
+            },
+            {
+              "id": "porotta-chicken-fry",
+              "no": "237",
+              "name": "Porotta + Chicken Fry",
+              "source": "POROTTA + CHICKEN FRY",
+              "price": 10,
+              "diet": "non-veg"
+            },
+            {
+              "id": "porotta-beef-dry-fry",
+              "no": "238",
+              "name": "Porotta + Beef Dry Fry",
+              "source": "POROTTA + BEEF DRY FRY",
+              "price": 12,
+              "diet": "non-veg"
+            },
+            {
+              "id": "chappathi-chicken-varattiyath",
+              "no": "239",
+              "name": "Chappathi + Chicken Varattiyath",
+              "source": "CHAPPATHI + CHICKEN VARATTIYATH",
+              "price": 12,
+              "diet": "non-veg"
+            },
+            {
+              "id": "kappa-fish-curry",
+              "no": "240",
+              "name": "Kappa + Fish Curry",
+              "source": "KAPPA + FISH CURRY",
+              "price": 10,
+              "diet": "non-veg"
+            },
+            {
+              "id": "ghee-rice-combo",
+              "no": "241",
+              "name": "Ghee Rice Combo",
+              "source": "GHEE RICE COMBO",
+              "price": 12.5,
+              "diet": null
+            }
+          ]
+        },
+        {
+          "id": "porotta-wraps",
+          "title": "Porotta Wraps",
+          "items": [
+            {
+              "id": "porotta-wrap",
+              "name": "Porotta Wrap",
+              "source": "POROTTA WRAP - CHICKEN | POROTTA WRAP - BEEF | POROTTA WRAP - EGG OMLETE | POROTTA WRAP - BOILED EGG",
+              "variants": [
+                {
+                  "label": "Chicken",
+                  "price": 4.5,
+                  "no": "242"
+                },
+                {
+                  "label": "Beef",
+                  "price": 4.5,
+                  "no": "243"
+                },
+                {
+                  "label": "Egg Omelette",
+                  "price": 3.5,
+                  "no": "244"
+                },
+                {
+                  "label": "Boiled Egg",
+                  "price": 3.5,
+                  "no": "245"
+                }
+              ],
+              "diet": "non-veg"
+            }
+          ]
+        }
+      ],
+      "note": "4:00 PM to 7:00 PM, weekdays only",
+      "window": {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "from": "16:00",
+        "to": "19:00"
+      },
+      "source": "4.00PM - 7.00PM (WEEK DAYS ONLY)"
+    },
+    {
+      "id": "drinks",
+      "title": "Drinks & Juices",
+      "sections": [
+        {
+          "id": "drinks-juices",
+          "title": "Drinks & Juices",
+          "items": [
+            {
+              "id": "sweet-lassi",
+              "no": "246",
+              "name": "Sweet Lassi",
+              "source": "LASSI SWEET",
+              "price": 6,
+              "diet": null
+            },
+            {
+              "id": "lime-juice",
+              "no": "247",
+              "name": "Lime Juice",
+              "source": "LIME JUICE",
+              "price": 6,
+              "diet": null
+            },
+            {
+              "id": "lime-mint-juice",
+              "no": "248",
+              "name": "Lime Mint Juice",
+              "source": "LIME MINT JUICE",
+              "price": 7,
+              "diet": null
+            },
+            {
+              "id": "lime-soda",
+              "no": "249",
+              "name": "Lime Soda",
+              "source": "LIME SODA",
+              "price": 6,
+              "diet": null
+            },
+            {
+              "id": "nannari-sarbathu",
+              "no": "250",
+              "name": "Nannari Sarbathu",
+              "source": "NANNARI SARBATHU",
+              "price": 8,
+              "diet": null
+            },
+            {
+              "id": "soft-drink",
+              "name": "Soft Drink",
+              "source": "SOFT DRINKS - CAN | SOFT DRINKS - CHOTTU",
+              "variants": [
+                {
+                  "label": "Can",
+                  "price": 3,
+                  "no": "251"
+                },
+                {
+                  "label": "Chottu",
+                  "price": 1.5,
+                  "no": "252"
+                }
+              ],
+              "diet": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
