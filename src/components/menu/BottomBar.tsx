@@ -20,9 +20,16 @@ export function BottomBar() {
           <button
             type="button"
             onClick={() => setListOpen(true)}
-            className="pointer-events-auto inline-flex min-h-11 items-center rounded-full bg-facade px-5 text-[17px] font-medium text-white shadow-[0_2px_10px_rgb(31_26_23/0.35)] ring-1 ring-white/15"
+            aria-label={`Your list (${count})`}
+            className="pill-in press pointer-events-auto inline-flex min-h-11 items-center rounded-full bg-facade px-5 text-[17px] font-medium text-white shadow-[0_2px_10px_rgb(31_26_23/0.35)] ring-1 ring-white/15"
           >
-            Your list ({count})
+            <span>
+              Your list (
+              <span key={count} className="bump">
+                {count}
+              </span>
+              )
+            </span>
           </button>
         </div>
       )}
@@ -32,7 +39,7 @@ export function BottomBar() {
           <button
             type="button"
             onClick={() => setCallOpen(true)}
-            className="inline-flex h-12 flex-1 items-center justify-center gap-2 rounded-full bg-brand-red-deep text-[17px] font-semibold text-white"
+            className="press inline-flex h-12 flex-1 items-center justify-center gap-2 rounded-full bg-brand-red-deep text-[17px] font-semibold text-white"
           >
             <Phone aria-hidden className="size-[18px]" />
             Call to order
@@ -41,7 +48,7 @@ export function BottomBar() {
             href={r.mapsUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-12 flex-1 items-center justify-center gap-2 rounded-full border-2 border-fg/80 text-[17px] font-semibold text-fg"
+            className="press inline-flex h-12 flex-1 items-center justify-center gap-2 rounded-full border-2 border-fg/80 text-[17px] font-semibold text-fg"
           >
             <MapPin aria-hidden className="size-[18px]" />
             Directions

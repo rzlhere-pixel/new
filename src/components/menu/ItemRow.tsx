@@ -29,7 +29,7 @@ export function ItemRow({
     <li
       id={itemAnchor(item.id)}
       className={cn(
-        "anchor flex min-h-[52px] items-start gap-3 border-b border-line py-1 last:border-b-0",
+        "reveal anchor flex min-h-[52px] items-start gap-3 border-b border-line py-1 last:border-b-0",
         soldOut && "text-muted",
       )}
     >
@@ -103,7 +103,7 @@ function AddButton({ item }: { item: Item }) {
       type="button"
       onClick={onClick}
       aria-label={`Add ${item.name} to your list`}
-      className="-mr-2 inline-flex size-11 shrink-0 items-center justify-center rounded-full text-fg transition-colors active:bg-chip"
+      className="press -mr-2 inline-flex size-11 shrink-0 items-center justify-center rounded-full text-fg active:bg-chip"
     >
       {added ? (
         <Check aria-hidden className="added-tick size-5 text-neon" strokeWidth={2.5} />

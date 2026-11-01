@@ -17,7 +17,7 @@ export function VisitUs() {
           alt="Arous Al Wadi Restaurant shop front on Bukhara Street"
           className="aspect-[2.66/1] h-auto w-full object-cover"
         />
-        <div className="px-5 pt-6">
+        <div className="reveal px-5 pt-6">
           <h2 id="visit-title" className="display text-[44px] leading-none text-neon">
             Visit us
           </h2>
@@ -36,7 +36,7 @@ export function VisitUs() {
             href={r.mapsUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 inline-flex h-12 items-center gap-2 rounded-full bg-neon px-6 text-[17px] font-semibold text-facade"
+            className="press mt-4 inline-flex h-12 items-center gap-2 rounded-full bg-neon px-6 text-[17px] font-semibold text-facade"
           >
             <MapPin aria-hidden className="size-[18px]" />
             Get directions

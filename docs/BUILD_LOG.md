@@ -137,3 +137,16 @@ Requested by the owner after the first PR: customers in the delivery area pick t
 - Deviation from §14 ("no online ordering"): the owner asked for this. It stays a WhatsApp message with no backend and no payment.
 - JS for `/` is now about 136 kB gzipped (was 133 kB): the building list and the delivery form.
 - Tests: `src/test/delivery.test.ts` (building data, search, validation, message text, link). Screenshots `docs/qa/390x844-*-13/14/15-*.jpg`.
+
+## Addendum, 1 Nov 2026: motion and polish pass
+
+Requested by the owner ("modern animation, faders, premium pass"). This replaces §6's "one moment only" motion rule, deliberately. Everything is opacity and transform (GPU only, no layout shift), and `prefers-reduced-motion` switches all of it off.
+
+- Hero: the photo settles from a 1.08 zoom while the sign switches on; logo, Arabic name, area and the open line rise in one after another; the "Open now" dot pulses.
+- Scroll (pure CSS scroll-driven animations, no JavaScript): headings, rows, the Today panel and Visit us rise in as they enter the screen; the hero photo drifts slower than the page (parallax) and its text fades out as it leaves. Browsers without support just show everything.
+- Sticky bar gains a soft shadow once the hero is gone.
+- Sheets slide up on the iOS sheet curve over a softly blurred backdrop; the list and delivery steps cross-fade; the staff screen fades and scales in.
+- Add: the tick pops; the "Your list" pill slides up and its count bumps. Buttons and chips press down slightly when tapped.
+- Search results fade in as you type.
+- The list pill now has an `aria-label` ("Your list (n)") so screen readers read the count cleanly.
+- Lighthouse `/` after the pass: Performance 89 to 90 (was 92), Accessibility 100, Best Practices 100, SEO 100. Speed Index rose to about 3.0 s because the hero text now rises in; LCP is unchanged at about 3.1 s.

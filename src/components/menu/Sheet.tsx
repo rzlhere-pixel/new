@@ -16,11 +16,11 @@ export function SheetContent({
 }: React.ComponentPropsWithoutRef<typeof Dialog.Content>) {
   return (
     <Dialog.Portal>
-      <Dialog.Overlay className="fixed inset-0 z-50 bg-black/60 data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:animate-in data-[state=open]:fade-in-0" />
+      <Dialog.Overlay className="sheet-overlay fixed inset-0 z-50 bg-black/55 backdrop-blur-[2px]" />
       <Dialog.Content
         className={clsx(
           "fixed inset-x-0 bottom-0 z-50 mx-auto flex max-h-[88svh] max-w-[640px] flex-col rounded-t-[20px] bg-bg text-fg outline-none",
-          "data-[state=closed]:animate-out data-[state=closed]:slide-out-to-bottom data-[state=open]:animate-in data-[state=open]:slide-in-from-bottom data-[state=open]:duration-200",
+          "sheet-panel shadow-[0_-12px_40px_-12px_rgb(0_0_0/0.35)]",
           className,
         )}
         {...props}

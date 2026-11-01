@@ -45,7 +45,7 @@ export function StaffScreen({
       <Dialog.Portal>
         <Dialog.Content
           aria-describedby={undefined}
-          className="fixed inset-0 z-[60] flex flex-col bg-facade text-[#F3ECE3] outline-none"
+          className="staff-in fixed inset-0 z-[60] flex flex-col bg-facade text-[#F3ECE3] outline-none"
         >
           <div className="mx-auto flex w-full max-w-[640px] min-h-0 flex-1 flex-col px-5 pt-[max(20px,env(safe-area-inset-top))]">
             <Dialog.Title className="display text-[32px] leading-[1.05] text-neon">
@@ -70,7 +70,7 @@ export function StaffScreen({
               })}
             </ul>
             <div className="safe-bottom pt-4">
-              <Dialog.Close className="inline-flex h-14 w-full items-center justify-center rounded-full bg-neon text-[20px] font-semibold text-facade">
+              <Dialog.Close className="press inline-flex h-14 w-full items-center justify-center rounded-full bg-neon text-[20px] font-semibold text-facade">
                 Done
               </Dialog.Close>
             </div>

@@ -142,13 +142,7 @@
   scroll-margin-top: calc(var(--sticky-h) + 8px);
 }
 
-/* The one bold moment: the shop sign switches on. */
-.hero-photo {
-  animation: sign-on 700ms ease-out both;
-}
-.hero-logo {
-  animation: fade-in 300ms ease-out 700ms both;
-}
+/* The bold moment: the shop sign switches on (see the motion layer below). */
 @keyframes sign-on {
   0% {
     filter: brightness(0.55) saturate(0.6);
@@ -180,7 +174,7 @@
 }
 
 /* Today panel tap: the row flashes a neon outline. */
-.flash {
+.flash.flash {
   animation: flash 600ms ease-out;
 }
 @keyframes flash {
@@ -193,10 +187,6 @@
     outline: 2px solid transparent;
     outline-offset: -2px;
   }
-}
-
-.added-tick {
-  animation: fade-in 200ms ease-out both;
 }
 
 .chip-row {
@@ -212,6 +202,264 @@
 
 .safe-bottom {
   padding-bottom: max(12px, env(safe-area-inset-bottom));
+}
+
+/* ---------------------------------------------------------------------------
+ * Motion layer (premium pass). Opacity and transform only, so it runs on the
+ * GPU and never shifts layout. Everything here is switched off by
+ * prefers-reduced-motion below. Base states are always fully visible: an
+ * animation only ever starts from hidden, so nothing stays invisible if it
+ * doesn't run.
+ * ------------------------------------------------------------------------- */
+:root {
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1); /* quick start, long soft landing */
+  --ease-sheet: cubic-bezier(0.32, 0.72, 0, 1); /* iOS sheet curve */
+}
+
+/* Hero: the photo settles from a slight zoom while the sign switches on. */
+.hero-photo {
+  animation:
+    sign-on 700ms ease-out both,
+    settle 1800ms var(--ease-out) both;
+}
+@keyframes settle {
+  from {
+    transform: scale(1.08);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* Hero text rises in, one line after another (--d sets each delay). */
+.rise {
+  animation: rise 520ms var(--ease-out) both;
+  animation-delay: var(--d, 0ms);
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* "Open now" dot: a slow neon pulse. */
+.live-dot {
+  position: relative;
+}
+.live-dot::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: inherit;
+  animation: live-pulse 2.4s ease-out infinite;
+}
+@keyframes live-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  70%,
+  100% {
+    transform: scale(3.2);
+    opacity: 0;
+  }
+}
+
+/* Sheets: slide up on the iOS curve, overlay fades and softly blurs. */
+.sheet-overlay[data-state="open"] {
+  animation: fade-in 280ms ease-out both;
+}
+.sheet-overlay[data-state="closed"] {
+  animation: fade-out 200ms ease-in both;
+}
+.sheet-panel[data-state="open"] {
+  animation: sheet-up 420ms var(--ease-sheet) both;
+}
+.sheet-panel[data-state="closed"] {
+  animation: sheet-down 240ms ease-in both;
+}
+@keyframes fade-out {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes sheet-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes sheet-down {
+  to {
+    transform: translateY(100%);
+  }
+}
+
+/* Full-screen staff card fades and scales in. */
+.staff-in[data-state="open"] {
+  animation: staff-in 320ms var(--ease-out) both;
+}
+@keyframes staff-in {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Inner step of a sheet (list ↔ delivery) cross-fades. */
+.step-in {
+  animation: step-in 300ms var(--ease-out) both;
+}
+@keyframes step-in {
+  from {
+    opacity: 0;
+    transform: translateX(16px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Add button: the tick pops; the "Your list" pill slides up and bumps on change. */
+.added-tick {
+  animation: pop 360ms var(--ease-out) both;
+}
+@keyframes pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.4) rotate(-20deg);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.18);
+  }
+  100% {
+    transform: none;
+  }
+}
+.pill-in {
+  animation: pill-in 420ms var(--ease-sheet) both;
+}
+@keyframes pill-in {
+  from {
+    opacity: 0;
+    transform: translateY(24px) scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.bump {
+  display: inline-block;
+  animation: bump 380ms var(--ease-out);
+}
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  35% {
+    transform: scale(1.35);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Search results fade in as the query changes. */
+.results-in {
+  animation: results-in 260ms var(--ease-out) both;
+}
+@keyframes results-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Press feedback for buttons, chips and links that look like buttons. */
+.press {
+  transition:
+    transform 160ms var(--ease-out),
+    background-color 200ms ease,
+    color 200ms ease,
+    box-shadow 240ms ease,
+    filter 200ms ease;
+}
+.press:active {
+  transform: scale(0.96);
+}
+@media (hover: hover) {
+  .press:hover {
+    filter: brightness(1.06);
+  }
+}
+
+/* Sticky bar gains a soft shadow once the hero has scrolled away. */
+.bar-shadow {
+  transition: box-shadow 300ms ease;
+}
+.bar-shadow[data-stuck="true"] {
+  box-shadow: 0 10px 28px -18px rgb(31 26 23 / 0.45);
+}
+
+/* Scroll-driven fades: rows and headings rise in as they enter the screen,
+ * and the hero drifts and dims as it leaves. Pure CSS, no JavaScript;
+ * browsers without scroll-driven animations simply show everything. */
+@supports (animation-timeline: view()) {
+  .reveal {
+    animation: reveal linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 55%;
+  }
+  @keyframes reveal {
+    from {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  .hero-parallax {
+    animation: hero-drift linear both;
+    animation-timeline: view();
+    animation-range: exit 0% exit 100%;
+  }
+  @keyframes hero-drift {
+    to {
+      transform: translateY(18%);
+    }
+  }
+  .hero-copy {
+    animation: hero-fade linear both;
+    animation-timeline: view();
+    animation-range: exit 0% exit 70%;
+  }
+  @keyframes hero-fade {
+    to {
+      opacity: 0;
+      transform: translateY(-24px);
+    }
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

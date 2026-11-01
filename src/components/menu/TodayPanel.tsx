@@ -22,7 +22,7 @@ export function TodayPanel({ now, onNavigate }: { now: DubaiNow; onNavigate: () 
   };
 
   return (
-    <section aria-labelledby="today-title" className="mx-auto max-w-[640px] px-5 pt-5">
+    <section aria-labelledby="today-title" className="reveal mx-auto max-w-[640px] px-5 pt-5">
       <div className="rounded-[20px] bg-panel px-5 py-4">
         {today.length > 0 && (
           <>

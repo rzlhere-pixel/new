@@ -16,7 +16,7 @@ export function SectionHeader({
 }) {
   const H = level === 2 ? "h2" : "h3";
   return (
-    <div className="flex items-end gap-3">
+    <div className="reveal flex items-end gap-3">
       <H
         className={cn(
           "display min-w-0 text-title",
@@ -60,7 +60,7 @@ function GroupBlock({ group, now }: { group: Group; now: DubaiNow }) {
       className="anchor border-t border-rule pt-4 pb-6 first:border-t-0"
     >
       {!single && (
-        <h2 className="display pt-4 text-[44px] leading-none text-title">{group.title}</h2>
+        <h2 className="reveal display pt-4 text-[44px] leading-none text-title">{group.title}</h2>
       )}
       {group.note && (
         <p className={cn("text-[17px] font-medium", single ? "pt-4" : "mt-2")}>{group.note}</p>

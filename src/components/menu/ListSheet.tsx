@@ -40,9 +40,11 @@ export function ListSheet({
       >
         <SheetContent aria-describedby="list-desc">
           {step === "delivery" && wa && lines.length > 0 ? (
-            <DeliveryForm lines={lines} whatsapp={wa} onBack={() => setStep("list")} />
+            <div key="delivery" className="step-in flex min-h-0 flex-1 flex-col">
+              <DeliveryForm lines={lines} whatsapp={wa} onBack={() => setStep("list")} />
+            </div>
           ) : (
-            <>
+            <div key="list" className="step-in flex min-h-0 flex-1 flex-col">
               <SheetHeader>
                 <SheetTitle>Your list</SheetTitle>
                 <SheetDescription id="list-desc">
@@ -85,7 +87,7 @@ export function ListSheet({
                               type="button"
                               aria-label={`One less ${label}`}
                               onClick={() => myList.setQty(l.itemId, l.variant, l.qty - 1)}
-                              className="inline-flex size-11 items-center justify-center rounded-full bg-chip text-chip-fg"
+                              className="press inline-flex size-11 items-center justify-center rounded-full bg-chip text-chip-fg"
                             >
                               <Minus aria-hidden className="size-4" />
                             </button>
@@ -99,7 +101,7 @@ export function ListSheet({
                               type="button"
                               aria-label={`One more ${label}`}
                               onClick={() => myList.setQty(l.itemId, l.variant, l.qty + 1)}
-                              className="inline-flex size-11 items-center justify-center rounded-full bg-chip text-chip-fg"
+                              className="press inline-flex size-11 items-center justify-center rounded-full bg-chip text-chip-fg"
                             >
                               <Plus aria-hidden className="size-4" />
                             </button>
@@ -122,7 +124,7 @@ export function ListSheet({
                       <button
                         type="button"
                         onClick={() => setStep("delivery")}
-                        className="mt-1 inline-flex h-12 items-center justify-center rounded-full bg-brand-red-deep text-[17px] font-semibold text-white"
+                        className="press mt-1 inline-flex h-12 items-center justify-center rounded-full bg-brand-red-deep text-[17px] font-semibold text-white"
                       >
                         Order for delivery
                       </button>
@@ -132,8 +134,8 @@ export function ListSheet({
                       onClick={() => setStaff(true)}
                       className={
                         wa
-                          ? "inline-flex h-12 items-center justify-center rounded-full border-2 border-fg/80 text-[17px] font-semibold"
-                          : "mt-1 inline-flex h-12 items-center justify-center rounded-full bg-brand-red-deep text-[17px] font-semibold text-white"
+                          ? "press inline-flex h-12 items-center justify-center rounded-full border-2 border-fg/80 text-[17px] font-semibold"
+                          : "press mt-1 inline-flex h-12 items-center justify-center rounded-full bg-brand-red-deep text-[17px] font-semibold text-white"
                       }
                     >
                       Show to staff
@@ -141,14 +143,14 @@ export function ListSheet({
                     <button
                       type="button"
                       onClick={() => myList.clear()}
-                      className="inline-flex h-11 items-center justify-center text-[17px] font-medium text-muted underline underline-offset-4"
+                      className="press inline-flex h-11 items-center justify-center text-[17px] font-medium text-muted underline underline-offset-4"
                     >
                       Clear list
                     </button>
                   </SheetFooter>
                 </>
               )}
-            </>
+            </div>
           )}
         </SheetContent>
       </Sheet>

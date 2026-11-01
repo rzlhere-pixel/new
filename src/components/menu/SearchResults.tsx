@@ -28,7 +28,7 @@ export function SearchResults({ query, now }: { query: string; now: DubaiNow }) 
   const count = results.reduce((n, r) => n + r.items.length, 0);
 
   return (
-    <div className="pb-6">
+    <div key={query} className="results-in pb-6">
       <p role="status" className="pt-4 text-[14px] leading-[1.4] text-muted">
         {count === 0 ? "" : `${count} ${count === 1 ? "dish" : "dishes"} match "${query.trim()}"`}
       </p>

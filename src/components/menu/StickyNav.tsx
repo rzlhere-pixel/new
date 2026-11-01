@@ -100,7 +100,11 @@ export function StickyNav({
   };
 
   return (
-    <div ref={barRef} className="sticky top-0 z-30 border-b border-rule bg-bg">
+    <div
+      ref={barRef}
+      data-stuck={stuck}
+      className="bar-shadow sticky top-0 z-30 border-b border-rule bg-bg"
+    >
       <div className="mx-auto max-w-[640px] px-5">
         <div className="flex items-center gap-2 pt-2">
           <div
@@ -175,7 +179,7 @@ export function StickyNav({
             type="button"
             onClick={() => setSheetOpen(true)}
             aria-label="Open section list"
-            className="-mr-2 inline-flex size-11 shrink-0 items-center justify-center rounded-full text-fg"
+            className="press -mr-2 inline-flex size-11 shrink-0 items-center justify-center rounded-full text-fg"
           >
             <MenuIcon aria-hidden className="size-6" />
           </button>
@@ -195,7 +199,7 @@ export function StickyNav({
                     goTo(section.id);
                   }}
                   className={cn(
-                    "inline-flex min-h-11 shrink-0 items-center rounded-full px-4 text-[15px] font-medium whitespace-nowrap transition-colors",
+                    "press inline-flex min-h-11 shrink-0 items-center rounded-full px-4 text-[15px] font-medium whitespace-nowrap",
                     on ? "bg-neon text-facade" : "bg-chip text-chip-fg",
                   )}
                 >

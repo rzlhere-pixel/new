@@ -93,7 +93,7 @@ export function DeliveryForm({
                   set({ buildingId: "" });
                   setQuery("");
                 }}
-                className="inline-flex h-11 items-center px-2 text-[15px] font-semibold underline underline-offset-4"
+                className="press inline-flex h-11 items-center px-2 text-[15px] font-semibold underline underline-offset-4"
               >
                 Change
               </button>
@@ -118,7 +118,7 @@ export function DeliveryForm({
                   setOther(false);
                   set({ otherBuilding: "" });
                 }}
-                className="mt-1 inline-flex h-11 items-center text-[15px] font-medium text-muted underline underline-offset-4"
+                className="press mt-1 inline-flex h-11 items-center text-[15px] font-medium text-muted underline underline-offset-4"
               >
                 Pick from the list instead
               </button>
@@ -174,7 +174,7 @@ export function DeliveryForm({
                   setOther(true);
                   set({ buildingId: "", otherBuilding: query.trim() });
                 }}
-                className="mt-1 inline-flex h-11 items-center text-[15px] font-medium underline underline-offset-4"
+                className="press mt-1 inline-flex h-11 items-center text-[15px] font-medium underline underline-offset-4"
               >
                 My building isn't listed
               </button>
@@ -267,7 +267,7 @@ export function DeliveryForm({
             if (problems.length) e.preventDefault();
           }}
           className={cn(
-            "mt-1 inline-flex h-12 items-center justify-center rounded-full bg-brand-red-deep text-[17px] font-semibold text-white",
+            "press mt-1 inline-flex h-12 items-center justify-center rounded-full bg-brand-red-deep text-[17px] font-semibold text-white",
             problems.length > 0 && "opacity-60",
           )}
         >
